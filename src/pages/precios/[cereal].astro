@@ -1,0 +1,179 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PrecioTable from '../../components/PrecioTable.astro';
+import VariacionBadge from '../../components/VariacionBadge.astro';
+import FAQ from '../../components/FAQ.astro';
+import { getCereales, getCereal, getLonja, getSemanaActual, getTodasLasSemanas, getPrecioMedioCereal, getPreciosCerealPorLonja, getVariacionMediaCereal, formatPrecio, formatFecha, getMesActual, getAnioActual } from '../../utils/precios';
+import { generateProductSchema } from '../../utils/seo';
+
+const base = import.meta.env.BASE_URL;
+
+export function getStaticPaths() {
+  const cereales = getCereales();
+  return cereales.map(c => ({ params: { cereal: c.slug } }));
+}
+
+const { cereal: cerealSlug } = Astro.params;
+const cereal = getCereal(cerealSlug!)!;
+const semana = getSemanaActual();
+const todasSemanas = getTodasLasSemanas();
+const stats = getPrecioMedioCereal(semana, cereal.id);
+const variacion = getVariacionMediaCereal(semana, cereal.id);
+const preciosPorLonja = getPreciosCerealPorLonja(semana, cereal.id);
+const mes = getMesActual();
+const anio = getAnioActual();
+
+const minLonja = stats ? getLonja(stats.minLonja) : null;
+const maxLonja = stats ? getLonja(stats.maxLonja) : null;
+
+// Historial de precios medios
+const historial = todasSemanas.map(s => {
+  const st = getPrecioMedioCereal(s, cereal.id);
+  return st ? { semana: s.semana, anio: s.anio, fecha: s.fechaFin, media: st.media } : null;
+}).filter(Boolean).reverse();
+
+const seo = {
+  title: `Precio del ${cereal.nombre} Hoy ${mes.charAt(0).toUpperCase() + mes.slice(1)} ${anio} - Todas las Lonjas`,
+  description: `Precio del ${cereal.nombre.toLowerCase()} hoy: ${stats ? formatPrecio(stats.media) : '---'} €/tonelada (media). Mín: ${stats ? formatPrecio(stats.min) : '---'} €/t, Máx: ${stats ? formatPrecio(stats.max) : '---'} €/t. Compara en ${preciosPorLonja.length} lonjas de España.`,
+};
+
+const schema = stats ? [generateProductSchema(cereal, stats, semana.fechaFin)] : [];
+
+// FAQs
+const precioKg = stats ? (stats.media / 1000).toFixed(4).replace('.', ',') : '---';
+const faqs = [
+  {
+    question: `¿Cuánto cuesta el kilo de ${cereal.nombre.toLowerCase()} hoy en España?`,
+    answer: `El precio medio del ${cereal.nombre.toLowerCase()} en España es de ${stats ? formatPrecio(stats.media) : '---'} €/tonelada, lo que equivale a aproximadamente ${precioKg} €/kg. Este precio varía según la lonja y la calidad del grano.`,
+  },
+  {
+    question: `¿Cuál es el precio del ${cereal.nombre.toLowerCase()} por tonelada?`,
+    answer: `El precio medio del ${cereal.nombre.toLowerCase()} por tonelada es de ${stats ? formatPrecio(stats.media) : '---'} €/t, con un mínimo de ${stats ? formatPrecio(stats.min) : '---'} €/t en ${minLonja?.ciudad ?? '---'} y un máximo de ${stats ? formatPrecio(stats.max) : '---'} €/t en ${maxLonja?.ciudad ?? '---'}.`,
+  },
+  {
+    question: `¿Dónde se cotiza el ${cereal.nombre.toLowerCase()} en España?`,
+    answer: `El ${cereal.nombre.toLowerCase()} se cotiza en las principales lonjas agropecuarias de España, como las de ${preciosPorLonja.slice(0, 4).map(p => p.lonjaNombre).join(', ')}, entre otras. Cada lonja fija sus cotizaciones semanalmente.`,
+  },
+  {
+    question: `¿Ha subido o bajado el precio del ${cereal.nombre.toLowerCase()} esta semana?`,
+    answer: variacion > 0
+      ? `El precio del ${cereal.nombre.toLowerCase()} ha subido esta semana una media de +${variacion.toFixed(2).replace('.', ',')} €/t respecto a la semana anterior.`
+      : variacion < 0
+        ? `El precio del ${cereal.nombre.toLowerCase()} ha bajado esta semana una media de ${variacion.toFixed(2).replace('.', ',')} €/t respecto a la semana anterior.`
+        : `El precio del ${cereal.nombre.toLowerCase()} se ha mantenido estable esta semana respecto a la semana anterior.`,
+  },
+];
+---
+
+<Layout seo={seo} schema={schema}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumbs items={[
+      { name: 'Precios', url: '/precios/' },
+      { name: cereal.nombre, url: `/precios/${cereal.slug}/` },
+    ]} />
+
+    <!-- Header -->
+    <div class="mb-8">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">
+        Precio del {cereal.nombre} Hoy &ndash; {mes.charAt(0).toUpperCase() + mes.slice(1)} {anio}
+      </h1>
+      <p class="text-gray-500">
+        Actualizado: <time datetime={semana.fechaFin}>{formatFecha(semana.fechaFin)}</time> &middot; Campaña {semana.campania} &middot; Semana {semana.semana}
+      </p>
+    </div>
+
+    <!-- Resumen -->
+    {stats && (
+      <div class="bg-gradient-to-r from-primary to-primary-light text-white rounded-xl p-6 sm:p-8 mb-10">
+        <div class="flex flex-col sm:flex-row sm:items-end gap-4 sm:gap-8">
+          <div>
+            <p class="text-green-200 text-sm font-medium uppercase tracking-wider">Precio medio nacional</p>
+            <div class="flex items-baseline gap-3 mt-1">
+              <span class="text-4xl sm:text-5xl font-extrabold tabular-nums">{formatPrecio(stats.media)}</span>
+              <span class="text-xl text-green-200">€/t</span>
+              <VariacionBadge variacion={variacion} size="lg" />
+            </div>
+          </div>
+          <div class="flex gap-6 text-sm">
+            <div>
+              <p class="text-green-200">Mínimo</p>
+              <p class="font-bold text-lg">{formatPrecio(stats.min)} <span class="text-green-200 font-normal text-sm">({minLonja?.ciudad})</span></p>
+            </div>
+            <div>
+              <p class="text-green-200">Máximo</p>
+              <p class="font-bold text-lg">{formatPrecio(stats.max)} <span class="text-green-200 font-normal text-sm">({maxLonja?.ciudad})</span></p>
+            </div>
+            <div>
+              <p class="text-green-200">Lonjas</p>
+              <p class="font-bold text-lg">{stats.count}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Precio por Lonja -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Precio del {cereal.nombre} por Lonja</h2>
+      <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+        <PrecioTable
+          rows={preciosPorLonja.map(p => ({
+            label: p.lonjaNombre,
+            href: `${base}/lonjas/${p.lonjaId}/`,
+            precio: p.precio,
+            anterior: p.anterior,
+            variacion: p.variacion,
+          }))}
+          columns={{ label: 'Lonja', anterior: 'Semana anterior', variacion: 'Variación' }}
+        />
+      </div>
+    </section>
+
+    <!-- Historial -->
+    {historial.length > 1 && (
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Histórico de Precios del {cereal.nombre}</h2>
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left">
+              <thead>
+                <tr class="border-b-2 border-gray-200 bg-gray-50">
+                  <th class="py-3 px-4 text-sm font-semibold text-gray-600">Semana</th>
+                  <th class="py-3 px-4 text-sm font-semibold text-gray-600">Fecha</th>
+                  <th class="py-3 px-4 text-sm font-semibold text-gray-600 text-right">Precio medio (€/t)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {historial.map((h, i) => (
+                  <tr class:list={['border-b border-gray-100', i % 2 === 0 ? '' : 'bg-gray-50/30']}>
+                    <td class="py-3 px-4 font-medium">Semana {h!.semana}</td>
+                    <td class="py-3 px-4 text-gray-500">{formatFecha(h!.fecha)}</td>
+                    <td class="py-3 px-4 text-right font-bold tabular-nums">{formatPrecio(h!.media)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- Descripción SEO -->
+    <section class="mb-12 max-w-4xl">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Sobre el precio del {cereal.nombre} en España</h2>
+      <div class="text-gray-600 leading-relaxed space-y-4">
+        <p>{cereal.descripcion}</p>
+        <p>
+          Actualmente, el <strong>precio medio del {cereal.nombre.toLowerCase()}</strong> en las lonjas españolas se sitúa en <strong>{stats ? formatPrecio(stats.media) : '---'} €/tonelada</strong>, con una variación semanal de <strong>{variacion > 0 ? '+' : ''}{variacion.toFixed(2).replace('.', ',')} €/t</strong>. El rango de precios va desde los {stats ? formatPrecio(stats.min) : '---'} €/t en {minLonja?.ciudad ?? '---'} hasta los {stats ? formatPrecio(stats.max) : '---'} €/t en {maxLonja?.ciudad ?? '---'}.
+        </p>
+        <p>
+          Los precios del {cereal.nombre.toLowerCase()} en lonja se expresan en euros por tonelada (€/t), en condiciones de origen agricultor sobre camión, siguiendo las normas de calidad O.C.M. Cereales de la FEGA para la campaña {semana.campania}. Estos precios son orientativos y están sujetos a negociación individual.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <FAQ faqs={faqs} />
+  </div>
+</Layout>

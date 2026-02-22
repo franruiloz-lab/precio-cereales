@@ -1,0 +1,71 @@
+---
+import { getCereales, getLonjas } from '../utils/precios';
+
+const base = import.meta.env.BASE_URL;
+const cereales = getCereales();
+const lonjas = getLonjas().slice(0, 6);
+---
+
+<footer class="bg-gray-900 text-gray-300 mt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Marca -->
+      <div>
+        <h3 class="text-white text-lg font-bold mb-4">Precios Cereales</h3>
+        <p class="text-sm text-gray-400 mb-4">
+          Tu portal de referencia para consultar los precios actualizados de cereales en todas las lonjas de España.
+        </p>
+        <p class="text-xs text-gray-500">
+          Datos actualizados semanalmente. Precios informativos, no vinculantes.
+        </p>
+      </div>
+
+      <!-- Precios por Cereal -->
+      <div>
+        <h3 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Precios por Cereal</h3>
+        <ul class="space-y-2">
+          {cereales.map(cereal => (
+            <li>
+              <a href={`${base}/precios/${cereal.slug}/`} class="text-sm hover:text-white transition-colors">
+                Precio {cereal.nombre}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Lonjas -->
+      <div>
+        <h3 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Lonjas de España</h3>
+        <ul class="space-y-2">
+          {lonjas.map(lonja => (
+            <li>
+              <a href={`${base}/lonjas/${lonja.slug}/`} class="text-sm hover:text-white transition-colors">
+                {lonja.nombre}
+              </a>
+            </li>
+          ))}
+          <li>
+            <a href={`${base}/lonjas/`} class="text-sm text-accent hover:text-accent-light transition-colors font-medium">
+              Ver todas las lonjas &rarr;
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Enlaces -->
+      <div>
+        <h3 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Herramientas</h3>
+        <ul class="space-y-2">
+          <li><a href={`${base}/comparador/`} class="text-sm hover:text-white transition-colors">Comparador de precios</a></li>
+          <li><a href={`${base}/precios/`} class="text-sm hover:text-white transition-colors">Todos los precios</a></li>
+          <li><a href={`${base}/blog/`} class="text-sm hover:text-white transition-colors">Análisis de mercado</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-800 mt-8 pt-8 text-center text-xs text-gray-500">
+      <p>&copy; {new Date().getFullYear()} Precios Cereales. Los precios mostrados son informativos y no vinculantes. Fuente: lonjas agropecuarias oficiales de España.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "trigo",
+    "nombre": "Trigo",
+    "nombreCompleto": "Trigo Blando (Pienso)",
+    "slug": "trigo",
+    "emoji": "",
+    "descripcion": "El trigo es el cereal más cultivado en España y uno de los principales productos agrícolas del país. Su precio en lonja es un referente clave para el sector agrario.",
+    "unidad": "€/t",
+    "keywords": ["precio trigo hoy", "precio del trigo", "cotización trigo", "precio trigo españa"],
+    "volumenBusqueda": 2550,
+    "color": "#F9A825"
+  },
+  {
+    "id": "cebada",
+    "nombre": "Cebada",
+    "nombreCompleto": "Cebada (+60 kg/hl)",
+    "slug": "cebada",
+    "emoji": "",
+    "descripcion": "La cebada es el segundo cereal más importante en España, utilizada principalmente para alimentación animal y producción de cerveza. Su cotización varía según la calidad y el peso específico.",
+    "unidad": "€/t",
+    "keywords": ["precio cebada hoy", "precio de la cebada", "cebada precio españa"],
+    "volumenBusqueda": 350,
+    "color": "#FF8F00"
+  },
+  {
+    "id": "maiz",
+    "nombre": "Maíz",
+    "nombreCompleto": "Maíz",
+    "slug": "maiz",
+    "emoji": "",
+    "descripcion": "El maíz es un cereal fundamental para la industria de piensos y alimentación animal en España. Su precio depende en gran medida de las importaciones y la producción nacional.",
+    "unidad": "€/t",
+    "keywords": ["precio maiz", "precio del maíz", "maíz cotización"],
+    "volumenBusqueda": 450,
+    "color": "#FFD54F"
+  },
+  {
+    "id": "avena",
+    "nombre": "Avena",
+    "nombreCompleto": "Avena",
+    "slug": "avena",
+    "emoji": "",
+    "descripcion": "La avena se cultiva en España tanto para grano como para forraje. Su precio en lonja refleja la demanda para alimentación animal y el creciente mercado de consumo humano.",
+    "unidad": "€/t",
+    "keywords": ["precio avena", "precio avena lonja", "avena precio"],
+    "volumenBusqueda": 160,
+    "color": "#A1887F"
+  },
+  {
+    "id": "girasol",
+    "nombre": "Girasol",
+    "nombreCompleto": "Girasol",
+    "slug": "girasol",
+    "emoji": "",
+    "descripcion": "El girasol es la principal oleaginosa cultivada en España. Su cotización está ligada al mercado internacional de aceites y a la producción en la cuenca mediterránea.",
+    "unidad": "€/t",
+    "keywords": ["precio girasol hoy", "precio del girasol", "girasol cotización"],
+    "volumenBusqueda": 440,
+    "color": "#FFC107"
+  },
+  {
+    "id": "colza",
+    "nombre": "Colza",
+    "nombreCompleto": "Colza",
+    "slug": "colza",
+    "emoji": "",
+    "descripcion": "La colza es un cultivo oleaginoso cada vez más presente en España. Su precio en lonja está vinculado al mercado europeo y a la demanda para biodiésel y alimentación.",
+    "unidad": "€/t",
+    "keywords": ["precio colza", "precio de la colza", "colza cotización"],
+    "volumenBusqueda": 100,
+    "color": "#C0CA33"
+  },
+  {
+    "id": "centeno",
+    "nombre": "Centeno",
+    "nombreCompleto": "Centeno",
+    "slug": "centeno",
+    "emoji": "",
+    "descripcion": "El centeno se cultiva en las zonas más frías y secas de España. Su cotización en lonja es un indicador importante para agricultores de Castilla y León y otras regiones del interior.",
+    "unidad": "€/t",
+    "keywords": ["precio centeno", "precio del centeno", "centeno cotización"],
+    "volumenBusqueda": 70,
+    "color": "#8D6E63"
+  },
+  {
+    "id": "triticale",
+    "nombre": "Triticale",
+    "nombreCompleto": "Triticale",
+    "slug": "triticale",
+    "emoji": "",
+    "descripcion": "El triticale es un híbrido de trigo y centeno, cada vez más cultivado en España por su resistencia y rendimiento. Se destina principalmente a alimentación animal.",
+    "unidad": "€/t",
+    "keywords": ["precio triticale", "precio triticale hoy", "triticale cotización"],
+    "volumenBusqueda": 50,
+    "color": "#BCAAA4"
+  }
+]

@@ -1,0 +1,59 @@
+---
+import VariacionBadge from './VariacionBadge.astro';
+import { formatPrecio } from '../utils/precios';
+
+interface PrecioRow {
+  label: string;
+  href?: string;
+  precio: number;
+  anterior: number;
+  variacion: number;
+  unidad?: string;
+}
+
+interface Props {
+  rows: PrecioRow[];
+  columns?: { label: string; anterior: string; variacion: string };
+  unidad?: string;
+}
+
+const { rows, columns, unidad = '€/t' } = Astro.props;
+const cols = columns ?? { label: 'Producto', anterior: 'Anterior', variacion: 'Variación' };
+---
+
+<div class="overflow-x-auto">
+  <table class="w-full text-left">
+    <thead>
+      <tr class="border-b-2 border-gray-200">
+        <th class="py-3 px-4 text-sm font-semibold text-gray-600">{cols.label}</th>
+        <th class="py-3 px-4 text-sm font-semibold text-gray-600 text-right">Precio ({unidad})</th>
+        <th class="py-3 px-4 text-sm font-semibold text-gray-600 text-right hidden sm:table-cell">{cols.anterior} ({unidad})</th>
+        <th class="py-3 px-4 text-sm font-semibold text-gray-600 text-right">{cols.variacion}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row, i) => (
+        <tr class:list={['border-b border-gray-100 hover:bg-gray-50 transition-colors', i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50']}>
+          <td class="py-3 px-4 font-medium">
+            {row.href ? (
+              <a href={row.href} class="text-primary hover:text-primary-light transition-colors">
+                {row.label}
+              </a>
+            ) : (
+              row.label
+            )}
+          </td>
+          <td class="py-3 px-4 text-right font-bold text-gray-900 tabular-nums">
+            {formatPrecio(row.precio)}
+          </td>
+          <td class="py-3 px-4 text-right text-gray-500 tabular-nums hidden sm:table-cell">
+            {formatPrecio(row.anterior)}
+          </td>
+          <td class="py-3 px-4 text-right">
+            <VariacionBadge variacion={row.variacion} size="sm" />
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

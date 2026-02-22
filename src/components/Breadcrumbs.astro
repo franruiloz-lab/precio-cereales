@@ -1,0 +1,28 @@
+---
+import { generateBreadcrumbSchema, type BreadcrumbItem } from '../utils/seo';
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const base = import.meta.env.BASE_URL;
+const { items } = Astro.props;
+const allItems = [{ name: 'Inicio', url: '/' }, ...items];
+const schema = generateBreadcrumbSchema(allItems);
+---
+
+<nav aria-label="Breadcrumb" class="mb-6">
+  <script type="application/ld+json" set:html={schema} />
+  <ol class="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+    {allItems.map((item, index) => (
+      <li class="flex items-center gap-1">
+        {index > 0 && <span class="text-gray-400">/</span>}
+        {index === allItems.length - 1 ? (
+          <span class="text-gray-700 font-medium">{item.name}</span>
+        ) : (
+          <a href={`${base}${item.url}`} class="hover:text-primary transition-colors">{item.name}</a>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>

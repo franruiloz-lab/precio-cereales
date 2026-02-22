@@ -1,0 +1,37 @@
+---
+interface Props {
+  variacion: number;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { variacion, size = 'md' } = Astro.props;
+
+const isUp = variacion > 0;
+const isDown = variacion < 0;
+const isNeutral = variacion === 0;
+
+const formatted = isUp
+  ? `+${variacion.toFixed(2).replace('.', ',')}`
+  : isDown
+    ? variacion.toFixed(2).replace('.', ',')
+    : '0,00';
+
+const arrow = isUp ? '&#9650;' : isDown ? '&#9660;' : '&#9644;';
+
+const sizeClasses = {
+  sm: 'text-xs px-1.5 py-0.5',
+  md: 'text-sm px-2 py-1',
+  lg: 'text-base px-3 py-1.5',
+};
+
+const colorClasses = isUp
+  ? 'bg-green-100 text-green-800'
+  : isDown
+    ? 'bg-red-100 text-red-800'
+    : 'bg-gray-100 text-gray-600';
+---
+
+<span class:list={['inline-flex items-center gap-1 rounded-full font-semibold whitespace-nowrap', sizeClasses[size], colorClasses]}>
+  <span set:html={arrow} />
+  {formatted}
+</span>

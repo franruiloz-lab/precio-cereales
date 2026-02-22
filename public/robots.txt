@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://franruiloz-lab.github.io/precio-cereales/sitemap-index.xml

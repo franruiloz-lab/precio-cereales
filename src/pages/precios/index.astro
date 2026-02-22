@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import VariacionBadge from '../../components/VariacionBadge.astro';
+import { getCereales, getSemanaActual, getPrecioMedioCereal, getVariacionMediaCereal, formatPrecio, formatFecha, getMesActual, getAnioActual } from '../../utils/precios';
+
+const base = import.meta.env.BASE_URL;
+const semana = getSemanaActual();
+const cereales = getCereales();
+const mes = getMesActual();
+const anio = getAnioActual();
+
+const preciosResumen = cereales.map(cereal => {
+  const stats = getPrecioMedioCereal(semana, cereal.id);
+  const variacion = getVariacionMediaCereal(semana, cereal.id);
+  return { cereal, stats, variacion };
+}).filter(p => p.stats !== null);
+
+const seo = {
+  title: `Precios de Todos los Cereales Hoy ${mes.charAt(0).toUpperCase() + mes.slice(1)} ${anio}`,
+  description: `Consulta el precio actualizado de todos los cereales en España: trigo, cebada, maíz, avena, girasol, colza, centeno y triticale. Datos de ${preciosResumen[0]?.stats?.count ?? 0}+ lonjas.`,
+};
+---
+
+<Layout seo={seo}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumbs items={[{ name: 'Precios', url: '/precios/' }]} />
+
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">Precios de Cereales en España</h1>
+    <p class="text-gray-500 mb-8">
+      Cotizaciones actualizadas a <time datetime={semana.fechaFin}>{formatFecha(semana.fechaFin)}</time> &middot; Campaña {semana.campania}
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {preciosResumen.map(item => (
+        <a href={`${base}/precios/${item.cereal.slug}/`} class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:border-primary/40 transition-all group">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">
+              {item.cereal.nombre}
+            </h2>
+            <VariacionBadge variacion={item.variacion} size="sm" />
+          </div>
+          <div class="text-3xl font-extrabold text-gray-900 tabular-nums mb-1">
+            {formatPrecio(item.stats!.media)} <span class="text-base font-normal text-gray-400">€/t</span>
+          </div>
+          <div class="text-sm text-gray-500 mt-3 flex justify-between">
+            <span>Mín: {formatPrecio(item.stats!.min)}</span>
+            <span>Máx: {formatPrecio(item.stats!.max)}</span>
+          </div>
+          <div class="text-xs text-gray-400 mt-2">{item.stats!.count} lonjas</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

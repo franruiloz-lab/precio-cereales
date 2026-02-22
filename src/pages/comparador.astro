@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import VariacionBadge from '../components/VariacionBadge.astro';
+import { getCereales, getLonjas, getSemanaActual, formatPrecio, formatFecha } from '../utils/precios';
+
+const base = import.meta.env.BASE_URL;
+const semana = getSemanaActual();
+const cereales = getCereales();
+const lonjas = getLonjas();
+
+const seo = {
+  title: 'Comparador de Precios de Cereales entre Lonjas de España',
+  description: `Compara el precio de cereales entre ${lonjas.length} lonjas de España. Trigo, cebada, maíz, avena y más cereales con precios actualizados y variaciones semanales.`,
+};
+
+// Construir tabla cruzada: cereales x lonjas
+const tablaComparativa = cereales.map(cereal => {
+  const preciosPorLonja = lonjas.map(lonja => {
+    const productos = semana.precios[lonja.id];
+    const item = productos?.[cereal.id];
+    return {
+      lonjaId: lonja.id,
+      lonjaNombre: lonja.nombre,
+      precio: item?.precio ?? null,
+      variacion: item?.variacion ?? null,
+    };
+  });
+  return { cereal, preciosPorLonja };
+});
+---
+
+<Layout seo={seo}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumbs items={[{ name: 'Comparador', url: '/comparador/' }]} />
+
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">Comparador de Precios de Cereales</h1>
+    <p class="text-gray-500 mb-8">
+      Compara el precio de cada cereal entre las {lonjas.length} lonjas de España.
+      Actualizado: <time datetime={semana.fechaFin}>{formatFecha(semana.fechaFin)}</time>.
+    </p>
+
+    {tablaComparativa.map(({ cereal, preciosPorLonja }) => {
+      const conPrecio = preciosPorLonja.filter(p => p.precio !== null);
+      if (conPrecio.length === 0) return null;
+
+      return (
+        <section class="mb-10">
+          <h2 class="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <a href={`${base}/precios/${cereal.slug}/`} class="hover:text-primary transition-colors">
+              {cereal.nombre}
+            </a>
+            <span class="text-sm font-normal text-gray-400">({conPrecio.length} lonjas)</span>
+          </h2>
+          <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+            <div class="overflow-x-auto">
+              <table class="w-full text-left">
+                <thead>
+                  <tr class="border-b-2 border-gray-200 bg-gray-50">
+                    <th class="py-3 px-4 text-sm font-semibold text-gray-600">Lonja</th>
+                    <th class="py-3 px-4 text-sm font-semibold text-gray-600 text-right">Precio (€/t)</th>
+                    <th class="py-3 px-4 text-sm font-semibold text-gray-600 text-right">Variación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {conPrecio.sort((a, b) => b.precio! - a.precio!).map((p, i) => (
+                    <tr class:list={['border-b border-gray-100 hover:bg-gray-50 transition-colors', i % 2 === 0 ? '' : 'bg-gray-50/30']}>
+                      <td class="py-3 px-4">
+                        <a href={`${base}/lonjas/${p.lonjaId}/`} class="font-medium text-primary hover:text-primary-light transition-colors">
+                          {p.lonjaNombre}
+                        </a>
+                      </td>
+                      <td class="py-3 px-4 text-right font-bold tabular-nums">{formatPrecio(p.precio!)}</td>
+                      <td class="py-3 px-4 text-right">
+                        <VariacionBadge variacion={p.variacion!} size="sm" />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      );
+    })}
+
+    <section class="mt-12 max-w-4xl">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">¿Por qué varían los precios entre lonjas?</h2>
+      <div class="text-gray-600 leading-relaxed space-y-4">
+        <p>
+          Los precios de cereales varían entre lonjas debido a factores como la <strong>proximidad a puertos de importación</strong> (las lonjas costeras como Barcelona suelen tener precios más altos por el coste del transporte interior), la <strong>oferta y demanda local</strong>, la <strong>calidad del grano</strong> y la <strong>infraestructura de almacenamiento</strong> disponible en cada zona.
+        </p>
+        <p>
+          Por ejemplo, es habitual que la <a href={`${base}/lonjas/barcelona/`} class="text-primary hover:text-primary-light">Lonja de Barcelona</a> cotice precios más elevados que las lonjas del interior como <a href={`${base}/lonjas/leon/`} class="text-primary hover:text-primary-light">León</a> o <a href={`${base}/lonjas/burgos/`} class="text-primary hover:text-primary-light">Burgos</a>, ya que Barcelona es un importante punto de entrada de cereal importado y los precios reflejan el coste de transporte desde origen.
+        </p>
+      </div>
+    </section>
+  </div>
+</Layout>

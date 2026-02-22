@@ -1,0 +1,31 @@
+---
+import { generateFAQSchema } from '../utils/seo';
+
+interface Props {
+  faqs: { question: string; answer: string }[];
+  title?: string;
+}
+
+const { faqs, title = 'Preguntas Frecuentes' } = Astro.props;
+const schema = generateFAQSchema(faqs);
+---
+
+<section class="mt-12">
+  <script type="application/ld+json" set:html={schema} />
+  <h2 class="text-2xl font-bold text-gray-900 mb-6">{title}</h2>
+  <div class="space-y-4">
+    {faqs.map(faq => (
+      <details class="group bg-gray-50 rounded-lg border border-gray-200">
+        <summary class="flex items-center justify-between cursor-pointer p-4 font-medium text-gray-900 hover:bg-gray-100 rounded-lg transition-colors">
+          <span>{faq.question}</span>
+          <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </summary>
+        <div class="px-4 pb-4 text-gray-600 leading-relaxed">
+          <p>{faq.answer}</p>
+        </div>
+      </details>
+    ))}
+  </div>
+</section>

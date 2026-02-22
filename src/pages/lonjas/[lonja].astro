@@ -1,0 +1,135 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PrecioTable from '../../components/PrecioTable.astro';
+import FAQ from '../../components/FAQ.astro';
+import { getLonjas, getLonja, getSemanaActual, getPreciosLonja, formatPrecio, formatFecha, getMesActual, getAnioActual } from '../../utils/precios';
+import { generateLocalBusinessSchema } from '../../utils/seo';
+
+const base = import.meta.env.BASE_URL;
+
+export function getStaticPaths() {
+  const lonjas = getLonjas();
+  return lonjas.map(l => ({ params: { lonja: l.slug } }));
+}
+
+const { lonja: lonjaSlug } = Astro.params;
+const lonja = getLonja(lonjaSlug!)!;
+const semana = getSemanaActual();
+const precios = getPreciosLonja(semana, lonja.id);
+const mes = getMesActual();
+const anio = getAnioActual();
+
+const seo = {
+  title: `${lonja.nombre} - Precios Cereales Hoy ${mes.charAt(0).toUpperCase() + mes.slice(1)} ${anio}`,
+  description: `Precios actualizados de la ${lonja.nombre}: ${precios.slice(0, 3).map(p => `${p.cerealNombre} a ${formatPrecio(p.precio)} €/t`).join(', ')}. Cotizaciones de ${precios.length} productos. Sesión: ${lonja.diaSesion}.`,
+};
+
+const schema = [generateLocalBusinessSchema(lonja)];
+
+const faqs = [
+  {
+    question: `¿Cuándo se reúne la ${lonja.nombre}?`,
+    answer: `La ${lonja.nombre} celebra su sesión de cotizaciones los ${lonja.diaSesion.toLowerCase()}. Los precios se publican tras cada sesión y están disponibles en esta página.`,
+  },
+  {
+    question: `¿Qué cereales cotiza la ${lonja.nombre}?`,
+    answer: `La ${lonja.nombre} cotiza actualmente ${precios.length} productos: ${precios.map(p => p.cerealNombre).join(', ')}.`,
+  },
+  {
+    question: `¿Los precios de la ${lonja.nombre} son vinculantes?`,
+    answer: `No. Los precios publicados por la ${lonja.nombre} son orientativos y no vinculantes. Sirven como referencia para la negociación individual entre compradores y vendedores.`,
+  },
+];
+---
+
+<Layout seo={seo} schema={schema}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumbs items={[
+      { name: 'Lonjas', url: '/lonjas/' },
+      { name: lonja.nombre, url: `/lonjas/${lonja.slug}/` },
+    ]} />
+
+    <!-- Header -->
+    <div class="mb-8">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">
+        {lonja.nombre} &ndash; Precios de Cereales Hoy
+      </h1>
+      <p class="text-gray-500">
+        Actualizado: <time datetime={semana.fechaFin}>{formatFecha(semana.fechaFin)}</time> &middot; Campaña {semana.campania}
+      </p>
+    </div>
+
+    <!-- Info Card -->
+    <div class="bg-gray-50 rounded-xl border border-gray-200 p-6 mb-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+        <div>
+          <p class="text-gray-400 font-medium uppercase tracking-wider text-xs">Ciudad</p>
+          <p class="font-semibold text-gray-900 mt-1">{lonja.ciudad}</p>
+        </div>
+        <div>
+          <p class="text-gray-400 font-medium uppercase tracking-wider text-xs">Comunidad</p>
+          <p class="font-semibold text-gray-900 mt-1">{lonja.comunidad}</p>
+        </div>
+        <div>
+          <p class="text-gray-400 font-medium uppercase tracking-wider text-xs">Día de sesión</p>
+          <p class="font-semibold text-gray-900 mt-1">{lonja.diaSesion}</p>
+        </div>
+        <div>
+          <p class="text-gray-400 font-medium uppercase tracking-wider text-xs">Productos</p>
+          <p class="font-semibold text-gray-900 mt-1">{precios.length} cereales</p>
+        </div>
+        {lonja.telefono && (
+          <div>
+            <p class="text-gray-400 font-medium uppercase tracking-wider text-xs">Teléfono</p>
+            <p class="font-semibold text-gray-900 mt-1">{lonja.telefono}</p>
+          </div>
+        )}
+        {lonja.web && (
+          <div>
+            <p class="text-gray-400 font-medium uppercase tracking-wider text-xs">Web oficial</p>
+            <p class="mt-1">
+              <a href={lonja.web} target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary-light font-medium">
+                Visitar &rarr;
+              </a>
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <!-- Tabla de Precios -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Cotizaciones de la {lonja.nombre}</h2>
+      <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+        <PrecioTable
+          rows={precios.map(p => ({
+            label: p.cerealNombre,
+            href: `${base}/precios/${p.cerealId}/`,
+            precio: p.precio,
+            anterior: p.anterior,
+            variacion: p.variacion,
+          }))}
+          columns={{ label: 'Cereal', anterior: 'Semana anterior', variacion: 'Variación' }}
+        />
+      </div>
+      <p class="text-xs text-gray-400 mt-3">
+        Precios en €/tonelada, en origen agricultor sobre camión. Condiciones O.C.M. Cereales - FEGA. Campaña {semana.campania}.
+      </p>
+    </section>
+
+    <!-- Descripción -->
+    <section class="mb-12 max-w-4xl">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Sobre la {lonja.nombre}</h2>
+      <div class="text-gray-600 leading-relaxed space-y-4">
+        <p>{lonja.descripcion}</p>
+        <p>
+          Las cotizaciones de la {lonja.nombre} se celebran cada <strong>{lonja.diaSesion.toLowerCase()}</strong> y cubren {precios.length} productos agrícolas. Los precios se expresan en euros por tonelada (€/t) en condiciones de origen agricultor.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <FAQ faqs={faqs} />
+  </div>
+</Layout>
