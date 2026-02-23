@@ -39,15 +39,7 @@ const seo = {
       <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
         {post.data.title}
       </h1>
-      <p class="text-lg text-gray-500 mb-4">{post.data.description}</p>
-      <div class="flex items-center gap-4 text-sm text-gray-400">
-        <time datetime={post.data.date}>
-          {new Date(post.data.date).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}
-        </time>
-        {post.data.lastUpdated && (
-          <span>Actualizado: {new Date(post.data.lastUpdated).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-        )}
-      </div>
+      <p class="text-lg text-gray-500">{post.data.description}</p>
     </header>
 
     <div class="prose prose-lg prose-gray max-w-none

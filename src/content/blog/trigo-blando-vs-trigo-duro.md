@@ -11,7 +11,7 @@ readingTime: "9 min"
 
 España es uno de los pocos países europeos que produce cantidades significativas tanto de **trigo blando** (Triticum aestivum) como de **trigo duro** (Triticum durum). Aunque ambos comparten nombre genérico y pertenecen al mismo género botánico, son en realidad dos cultivos muy diferentes en casi todo: sus características físicas, sus usos industriales, las zonas donde se cultivan, sus exigencias agronómicas y, por supuesto, sus precios.
 
-Para el agricultor, entender estas diferencias es fundamental a la hora de decidir qué sembrar. Para el consumidor, explica por qué el pan y la pasta proceden de harinas tan distintas. Y para cualquier persona que siga el mercado cerealista, es imprescindible saber que cuando una lonja cotiza "trigo", se refiere normalmente al trigo blando pienso, no al trigo duro, cuyo mercado funciona con lógicas propias.
+Para el agricultor, entender estas diferencias es fundamental a la hora de decidir qué sembrar. Para el consumidor, explica por qué el pan y la pasta proceden de harinas tan distintas. Y para cualquier persona que siga el mercado cerealista, es imprescindible saber que cuando una lonja cotiza "trigo", se refiere normalmente al trigo blando pienso, no al trigo duro, cuyo mercado funciona con lógicas propias. Puedes consultar las cotizaciones semanales en las principales [lonjas de cereales en España](/precio-cereales/blog/lonjas-cereales-espana/).
 
 En este artículo vamos a desgranar todas las diferencias entre trigo blando y trigo duro, desde el grano hasta el plato, pasando por el campo y el mercado.
 
@@ -77,7 +77,7 @@ El trigo blando se cultiva en prácticamente todas las regiones cerealistas de E
 
 El trigo duro tiene una distribución mucho más restringida, concentrándose en las zonas de clima mediterráneo cálido:
 
-- **Andalucía**: es la principal zona de producción de trigo duro en España, con las provincias de **Sevilla, Córdoba y Cádiz** como protagonistas. La campiña del Guadalquivir ofrece las condiciones idóneas: inviernos suaves, primaveras cálidas y suelos profundos de tipo vertisol (las famosas "tierras negras" o "bujeos" andaluces).
+- **Andalucía**: es la principal zona de producción de trigo duro en España, con las provincias de **Sevilla, Córdoba y Cádiz** como protagonistas. La [Lonja de Sevilla](/precio-cereales/lonjas/sevilla/) es la referencia principal para las cotizaciones de trigo duro. La campiña del Guadalquivir ofrece las condiciones idóneas: inviernos suaves, primaveras cálidas y suelos profundos de tipo vertisol (las famosas "tierras negras" o "bujeos" andaluces).
 - **Aragón**: algunas zonas del valle del Ebro cultivan trigo duro, especialmente en Zaragoza.
 - **Otras zonas**: presencia puntual en Castilla-La Mancha, Extremadura y Cataluña, pero con superficies mucho menores.
 
@@ -125,7 +125,7 @@ Una de las diferencias más importantes desde el punto de vista del agricultor e
 
 El trigo duro cotiza habitualmente con una **prima de 20 a 40 EUR/t** sobre el trigo blando pienso. En campañas con problemas de oferta de trigo duro (como ocurrió en 2021, cuando la sequía en Canadá redujo drásticamente la producción mundial), esta prima puede dispararse hasta los 80-100 EUR/t o incluso más.
 
-Esta prima se justifica por varios factores:
+Para entender en detalle los mecanismos que determinan estas cotizaciones, puedes leer nuestro artículo sobre [cómo se fija el precio del cereal en España](/precio-cereales/blog/como-se-fija-precio-cereal/). Esta prima se justifica por varios factores:
 
 - **Menor superficie y producción**: el trigo duro es un cultivo mucho más minoritario que el blando a nivel mundial, por lo que cualquier problema de oferta tiene un impacto proporcionalmente mayor en los precios.
 - **Demanda industrial específica**: la industria pastificadora necesita trigo duro y no puede sustituirlo por trigo blando, lo que crea una demanda inelástica.
@@ -152,7 +152,7 @@ En el contexto europeo, España es un productor relevante de trigo duro: junto c
 
 ### Tendencias de superficie
 
-La superficie de trigo duro en España ha experimentado fluctuaciones significativas en las últimas décadas, muy influidas por las **ayudas acopladas de la PAC** que durante años proporcionaron un pago específico por hectárea de trigo duro en las zonas tradicionales de producción. La reforma de la PAC y el desacoplamiento progresivo de estas ayudas han generado incertidumbre sobre la evolución futura de la superficie.
+La superficie de trigo duro en España ha experimentado fluctuaciones significativas en las últimas décadas, muy influidas por las [ayudas acopladas de la PAC](/precio-cereales/blog/ayudas-pac-cereales/) que durante años proporcionaron un pago específico por hectárea de trigo duro en las zonas tradicionales de producción. La reforma de la PAC y el desacoplamiento progresivo de estas ayudas han generado incertidumbre sobre la evolución futura de la superficie.
 
 La superficie de trigo blando se mantiene relativamente estable, con una ligera tendencia a la baja en favor de la cebada en las zonas más secas, donde los agricultores prefieren la mayor seguridad de cosecha que ofrece la cebada.
 
@@ -160,10 +160,10 @@ La superficie de trigo blando se mantiene relativamente estable, con una ligera 
 
 A la hora de decidir entre sembrar trigo blando o trigo duro, el agricultor debe considerar:
 
-- **Clima**: el trigo duro necesita inviernos suaves y una maduración cálida y seca. No es viable en zonas con heladas tardías frecuentes o con lluvias primaverales abundantes que favorezcan las enfermedades fúngicas.
+- **Clima**: el trigo duro necesita inviernos suaves y una maduración cálida y seca, condiciones que se concentran en un [calendario de siembra y cosecha](/precio-cereales/blog/calendario-siembra-cosecha-cereales/) específico. No es viable en zonas con heladas tardías frecuentes o con lluvias primaverales abundantes que favorezcan las enfermedades fúngicas.
 - **Suelo**: el trigo duro se adapta bien a suelos arcillosos y profundos, como los vertisoles andaluces. En suelos ligeros o poco fértiles, el trigo blando suele ser mejor opción.
 - **Mercado local**: la existencia de compradores de trigo duro cerca de la explotación es importante, ya que el mercado es más estrecho que el del trigo blando y la logística puede ser un factor limitante.
-- **Prima de precio vs. riesgo**: la prima del trigo duro compensa su mayor riesgo agronómico solo si las condiciones de la zona son adecuadas. Sembrar trigo duro en una zona no óptima puede resultar en grano de baja vitrosidad que no obtenga la prima esperada.
+- **Prima de precio vs. riesgo**: la prima del trigo duro compensa su mayor riesgo agronómico solo si las condiciones de la zona son adecuadas. Sembrar trigo duro en una zona no óptima puede resultar en grano de baja vitrosidad que no obtenga la prima esperada. Elegir bien [cuándo vender el trigo](/precio-cereales/blog/cuando-vender-trigo-cebada/) es igualmente importante para maximizar esa prima.
 
 ## Conclusión
 

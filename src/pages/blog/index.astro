@@ -52,10 +52,7 @@ const seo = {
             <p class="text-sm text-gray-500 line-clamp-3 mb-4">
               {post.data.description}
             </p>
-            <div class="flex items-center justify-between">
-              <time datetime={post.data.date} class="text-xs text-gray-400">
-                {new Date(post.data.date).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' })}
-              </time>
+            <div class="flex items-center justify-end">
               <span class="text-primary text-sm font-semibold group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
                 Leer
                 <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

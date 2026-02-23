@@ -9,7 +9,7 @@ readingTime: "12 min"
 
 # Cómo se Fija el Precio del Cereal en España: Los 7 Factores Clave
 
-Cuando un agricultor consulta el precio del trigo o de la cebada en la lonja de su provincia, ve un número expresado en euros por tonelada. Ese número parece simple, pero es el resultado de un entramado complejo de fuerzas que actúan simultáneamente a escala local, nacional e internacional.
+Cuando un agricultor consulta el [precio del trigo](/precio-cereales/precios/trigo/) o de la [cebada](/precio-cereales/precios/cebada/) en la lonja de su provincia, ve un número expresado en euros por tonelada. Ese número parece simple, pero es el resultado de un entramado complejo de fuerzas que actúan simultáneamente a escala local, nacional e internacional.
 
 Entender **cómo se fija el precio del cereal** no es un ejercicio teórico: es una herramienta práctica que permite anticipar movimientos del mercado, elegir el mejor momento para vender y negociar con más criterio. En este artículo desgranamos los **siete factores principales** que determinan el precio que aparece cada semana en las tablas de las lonjas españolas.
 
@@ -73,7 +73,7 @@ El clima es el factor más impredecible y, a menudo, el que genera las oscilacio
 
 ### Sequía
 
-La sequía es el principal riesgo climático para los cereales en España. Un invierno y primavera secos en Castilla y León puede reducir la cosecha de cebada a la mitad, provocando subidas de precio del 30-50% en cuestión de semanas. Los mercados reaccionan no solo a la sequía real, sino también a las **previsiones**: si los modelos meteorológicos anticipan un mes de abril seco, los precios empiezan a subir antes de que el daño se materialice.
+La sequía es el principal riesgo climático para los cereales en España. Entender el [calendario de siembra y cosecha](/precio-cereales/blog/calendario-siembra-cosecha-cereales/) ayuda a anticipar en qué momentos las condiciones meteorológicas son más críticas. Un invierno y primavera secos en Castilla y León puede reducir la cosecha de cebada a la mitad, provocando subidas de precio del 30-50% en cuestión de semanas. Los mercados reaccionan no solo a la sequía real, sino también a las **previsiones**: si los modelos meteorológicos anticipan un mes de abril seco, los precios empiezan a subir antes de que el daño se materialice.
 
 ### Heladas tardías
 
@@ -101,7 +101,7 @@ Los acuerdos comerciales con Ucrania, Canadá (CETA) y otros países también in
 
 ### Eco-esquemas y condicionalidad
 
-Los eco-esquemas introducidos en la nueva PAC 2023-2027 obligan o incentivan a los agricultores a adoptar prácticas como la diversificación de cultivos, las cubiertas vegetales o la reducción de insumos. Estas medidas pueden afectar a la superficie sembrada de cada cereal y, en consecuencia, a la producción y los precios.
+Los eco-esquemas introducidos en la nueva PAC 2023-2027 --cuyas implicaciones para el sector detallamos en nuestro artículo sobre [ayudas de la PAC a los cereales](/precio-cereales/blog/ayudas-pac-cereales/)-- obligan o incentivan a los agricultores a adoptar prácticas como la diversificación de cultivos, las cubiertas vegetales o la reducción de insumos. Estas medidas pueden afectar a la superficie sembrada de cada cereal y, en consecuencia, a la producción y los precios.
 
 ### Reservas de intervención
 
@@ -185,7 +185,7 @@ Los niveles de micotoxinas (deoxinivalenol, zearalenona, aflatoxinas) están reg
 
 ## Cómo las lonjas integran todos los factores
 
-La mesa de cotización de una lonja es, en esencia, un **mecanismo de síntesis** de todos los factores anteriores. Cada semana, cuando los vocales se sientan a negociar los precios, llevan en la cabeza (y en sus informes) datos sobre:
+La mesa de cotización de una [lonja de cereales](/precio-cereales/blog/que-es-lonja-cereales/) es, en esencia, un **mecanismo de síntesis** de todos los factores anteriores. Cada semana, cuando los vocales se sientan a negociar los precios, llevan en la cabeza (y en sus informes) datos sobre:
 
 - Las operaciones reales cerradas durante la semana (precio, volumen, condiciones)
 - La evolución de los futuros Matif y CBOT
@@ -208,7 +208,7 @@ La ubicación geográfica de cada plaza determina los costes de transporte. Una 
 
 ### Oferta y demanda locales
 
-Las condiciones de oferta y demanda varían de una provincia a otra. Una buena cosecha en León no implica necesariamente una buena cosecha en Sevilla (de hecho, las condiciones climáticas pueden ser opuestas). Esto genera diferencias de precios que reflejan las realidades locales.
+Las condiciones de oferta y demanda varían de una provincia a otra. Puedes consultar las cotizaciones de cada plaza en nuestro [directorio completo de lonjas de cereales en España](/precio-cereales/blog/lonjas-cereales-espana/). Una buena cosecha en León no implica necesariamente una buena cosecha en Sevilla (de hecho, las condiciones climáticas pueden ser opuestas). Esto genera diferencias de precios que reflejan las realidades locales.
 
 ### Composición de la mesa
 
@@ -228,4 +228,4 @@ El precio que ves en la tabla de tu lonja cada semana es el resultado de la inte
 
 Como agricultor, no puedes controlar la mayoría de estos factores, pero sí puedes **entenderlos**. Y entenderlos te da una ventaja: saber por qué suben o bajan los precios te permite anticipar movimientos, elegir mejor el momento de la venta y negociar con más fundamento.
 
-Mantente informado consultando regularmente las [cotizaciones de cereales](/precio-cereales/precios/) y leyendo nuestros análisis de mercado. La información es tu mejor aliada en un mercado donde cada euro por tonelada cuenta.
+Mantente informado consultando regularmente las [cotizaciones de cereales](/precio-cereales/precios/) y leyendo nuestros análisis sobre el [mercado de cereales en España](/precio-cereales/blog/mercado-cereales-espana/). La información es tu mejor aliada en un mercado donde cada euro por tonelada cuenta.

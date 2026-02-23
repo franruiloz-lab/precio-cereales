@@ -9,7 +9,7 @@ readingTime: "10 min"
 
 # Calendario de Siembra y Cosecha de Cereales en España: Fechas por Cultivo y Región
 
-El sector cerealista español se rige por un calendario agrícola que marca el ritmo de toda la actividad productiva y comercial. Saber cuándo se siembra y cuándo se cosecha cada cereal no es solo una cuestión agronómica: tiene implicaciones directas en los **precios de mercado**, ya que la cercanía de la cosecha, el estado de las siembras y la evolución de los cultivos son algunos de los factores que más influyen en las cotizaciones semanales de las lonjas.
+El sector cerealista español se rige por un calendario agrícola que marca el ritmo de toda la actividad productiva y comercial. Saber cuándo se siembra y cuándo se cosecha cada cereal no es solo una cuestión agronómica: tiene implicaciones directas en los **precios de mercado**, ya que la cercanía de la cosecha, el estado de las siembras y la evolución de los cultivos son algunos de los [factores que determinan el precio del cereal](/precio-cereales/blog/como-se-fija-precio-cereal/) cada semana en las lonjas.
 
 En este artículo te presentamos un calendario completo con las fechas de siembra y cosecha de todos los cereales y oleaginosas que se cultivan en España, desglosado por tipo de cultivo y por región. Además, explicamos cómo este calendario agrícola se relaciona con los ciclos de precios del mercado.
 
@@ -29,7 +29,7 @@ Por tanto, cuando se habla de los precios de la "campaña 2025/26", se refiere a
 
 ## Cereales de invierno: trigo, cebada, avena, centeno y triticale
 
-Los cereales de invierno son la columna vertebral de la agricultura cerealista española. Estos cultivos se siembran en otoño, pasan el invierno en fase vegetativa (ahijamiento) y se cosechan a finales de primavera o principios de verano. Son cultivos de **secano** en su inmensa mayoría, dependientes de las lluvias otoñales, invernales y primaverales para su desarrollo.
+Los cereales de invierno son la columna vertebral de la agricultura cerealista española. Si quieres conocer las características de cada especie, consulta nuestra guía sobre los [tipos de cereales que se cultivan en España](/precio-cereales/blog/tipos-cereales-espana/). Estos cultivos se siembran en otoño, pasan el invierno en fase vegetativa (ahijamiento) y se cosechan a finales de primavera o principios de verano. Son cultivos de **secano** en su inmensa mayoría, dependientes de las lluvias otoñales, invernales y primaverales para su desarrollo.
 
 ### Siembra de los cereales de invierno
 
@@ -68,7 +68,7 @@ Si la siembra sigue un gradiente norte-sur, la **cosecha** sigue exactamente el 
 **Andalucía:**
 - Cosecha de cebada: mediados de mayo a mediados de junio
 - Cosecha de trigo: junio
-- Andalucía es siempre la primera región en cosechar cereales de invierno en España. Las lonjas andaluzas (Sevilla, Córdoba) son las primeras en reflejar los precios del grano nuevo.
+- Andalucía es siempre la primera región en cosechar cereales de invierno en España. Las [lonjas andaluzas](/precio-cereales/lonjas/) (Sevilla, Córdoba) son las primeras en reflejar los precios del grano nuevo.
 
 **Castilla-La Mancha y Extremadura:**
 - Cosecha de cebada: junio
@@ -182,7 +182,7 @@ El calendario de siembra y cosecha tiene una influencia directa y predecible sob
 
 Inmediatamente después de la cosecha de cereales de invierno, en julio y agosto, la oferta se dispara. Millones de toneladas de grano nuevo llegan al mercado en pocas semanas. Al mismo tiempo, muchos agricultores necesitan liquidez para pagar los costes de la cosecha (cosechadora, transporte, almacenamiento) y se ven obligados a vender rápidamente.
 
-Esta combinación de oferta abundante y presión vendedora genera habitualmente un **mínimo estacional de precios** en los meses de julio a septiembre. Es el peor momento del año para vender, desde el punto de vista del precio.
+Esta combinación de oferta abundante y presión vendedora genera habitualmente un **mínimo estacional de precios** en los meses de julio a septiembre. Es el peor momento del año para vender, desde el punto de vista del precio. Puedes seguir la evolución semanal del [precio del trigo](/precio-cereales/precios/trigo/), de la [cebada](/precio-cereales/precios/cebada/) y del [maíz](/precio-cereales/precios/maiz/) en nuestra web para detectar estos patrones.
 
 ### La estabilización otoñal (septiembre-noviembre)
 
@@ -240,7 +240,7 @@ Las cosechas más tardías del norte (cornisa cantábrica, zonas de montaña) se
 
 ## Conclusión
 
-El calendario de siembra y cosecha es la columna vertebral del mercado de cereales. Conocerlo permite entender por qué los precios suben y bajan en determinados momentos del año, anticipar los periodos de oportunidad para la venta y planificar la gestión del grano almacenado.
+El calendario de siembra y cosecha es la columna vertebral del [mercado de cereales en España](/precio-cereales/blog/mercado-cereales-espana/). Conocerlo permite entender por qué los precios suben y bajan en determinados momentos del año, anticipar los periodos de oportunidad para la venta y planificar la gestión del grano almacenado.
 
 Recuerda que los patrones estacionales son tendencias generales, no garantías. Cada campaña es diferente y factores como la sequía, las heladas, las crisis internacionales o los cambios en la demanda ganadera pueden alterar significativamente el calendario habitual de precios.
 

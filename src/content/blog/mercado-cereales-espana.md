@@ -46,7 +46,7 @@ La producción cerealista española se concentra geográficamente en las grandes
 
 La composición de la producción cerealista española refleja tanto las condiciones agronómicas del país como la orientación del mercado:
 
-- **Cebada**: es el cereal rey en España, con una producción media de **7-8 millones de toneladas**. España es el primer productor de cebada de la UE en años buenos. Su predominio se explica por su mejor adaptación a los secanos áridos y semiáridos que dominan gran parte del territorio.
+- **Cebada**: es el cereal rey en España, con una producción media de **7-8 millones de toneladas**. España es el primer productor de cebada de la UE en años buenos. Su predominio se explica por su mejor adaptación a los secanos áridos y semiáridos que dominan gran parte del territorio. Consulta el [precio actualizado de la cebada](/precio-cereales/precios/cebada/) en nuestras tablas.
 
 - **Trigo blando**: segundo cereal en importancia, con una producción media de **5-6 millones de toneladas**. Se cultiva principalmente en Castilla y León, Castilla-La Mancha y Aragón.
 
@@ -56,7 +56,7 @@ La composición de la producción cerealista española refleja tanto las condici
 
 - **Trigo duro**: alrededor de **0,8-1 millón de toneladas**, concentrado en Andalucía. España es uno de los principales productores europeos, junto a Italia, Francia y Grecia.
 
-- **Centeno, triticale y otros**: completan la producción con volúmenes menores pero en crecimiento, especialmente el triticale por su interés como cultivo forrajero.
+- **Centeno, triticale y otros**: completan la producción con volúmenes menores pero en crecimiento, especialmente el triticale por su interés como cultivo forrajero. Para un repaso detallado de cada especie, consulta nuestra guía sobre los [tipos de cereales que se cultivan en España](/precio-cereales/blog/tipos-cereales-espana/).
 
 ## Consumo: una demanda insaciable de 37 millones de toneladas
 
@@ -125,7 +125,7 @@ Las importaciones de cereal llegan principalmente por **vía marítima** a los g
 - En el **interior peninsular**, los precios se forman en función de la oferta local, la demanda de las fábricas de pienso cercanas y el coste de traer cereal desde los puertos.
 - El **coste del transporte interior** (camión, principalmente) crea una prima para el cereal producido cerca de los centros de consumo y una desventaja para el producido en zonas alejadas de los puertos y las fábricas.
 
-Esta dualidad puerto-interior es una de las claves para entender las diferencias de precios entre las distintas [lonjas de cereales](/precio-cereales/lonjas/) españolas.
+Esta dualidad puerto-interior es una de las claves para entender las diferencias de precios entre las distintas [lonjas de cereales](/precio-cereales/lonjas/) españolas, un aspecto que analizamos en profundidad en nuestro artículo sobre las [lonjas de cereales en España](/precio-cereales/blog/lonjas-cereales-espana/). Puedes utilizar nuestro [comparador de precios](/precio-cereales/comparador/) para visualizar estas diferencias entre zonas.
 
 ## La industria de piensos: el principal motor de los precios
 
@@ -196,11 +196,11 @@ Por el lado de la oferta, el **cambio climático** es la mayor amenaza para la p
 - La reducción de las **reservas hídricas** pone en riesgo la producción de maíz de regadío.
 - Los **fenómenos meteorológicos extremos** (heladas tardías, golpes de calor durante el llenado del grano, tormentas con granizo) son cada vez más frecuentes.
 
-La adaptación al cambio climático pasará por el desarrollo de **variedades más resistentes** a la sequía y al calor, la mejora de las técnicas de manejo (siembra directa, agricultura de conservación, uso eficiente del agua) y, posiblemente, por un desplazamiento de las zonas de producción hacia el norte.
+La adaptación al cambio climático pasará por el desarrollo de **variedades más resistentes** a la sequía y al calor, la mejora de las técnicas de manejo (siembra directa, agricultura de conservación, uso eficiente del agua), el apoyo de las [ayudas de la PAC para cereales](/precio-cereales/blog/ayudas-pac-cereales/) y, posiblemente, por un desplazamiento de las zonas de producción hacia el norte. Conocer el [calendario de siembra y cosecha](/precio-cereales/blog/calendario-siembra-cosecha-cereales/) es cada vez más importante en un contexto climático cambiante.
 
 ### El déficit se mantendrá o aumentará
 
-La combinación de demanda creciente y oferta amenazada por el clima sugiere que el **déficit cerealista español se mantendrá o incluso aumentará** en las próximas décadas. Esto implica que España seguirá siendo un importador neto de cereales, que la competencia por el cereal importado con otros compradores globales se intensificará y que la **gestión del riesgo de precio** será cada vez más importante para todos los actores de la cadena.
+La combinación de demanda creciente y oferta amenazada por el clima sugiere que el **déficit cerealista español se mantendrá o incluso aumentará** en las próximas décadas. Esto implica que España seguirá siendo un importador neto de cereales, que la competencia por el cereal importado con otros compradores globales se intensificará y que la **gestión del riesgo de precio** será cada vez más importante para todos los actores de la cadena. Saber [cuándo vender el trigo y la cebada](/precio-cereales/blog/cuando-vender-trigo-cebada/) será una habilidad cada vez más valiosa para el cerealista.
 
 ## Conclusión
 
