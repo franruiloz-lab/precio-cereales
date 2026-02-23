@@ -6,88 +6,363 @@
   "fechaFin": "2026-02-14",
   "precios": {
     "leon": {
-      "trigo": { "precio": 226.50, "anterior": 225.00, "variacion": 1.50 },
-      "cebada": { "precio": 196.50, "anterior": 197.00, "variacion": -0.50 },
-      "maiz": { "precio": 215.00, "anterior": 214.00, "variacion": 1.00 },
-      "avena": { "precio": 197.00, "anterior": 196.00, "variacion": 1.00 },
-      "centeno": { "precio": 189.00, "anterior": 188.00, "variacion": 1.00 },
-      "triticale": { "precio": 191.50, "anterior": 191.00, "variacion": 0.50 }
+      "trigo": {
+        "precio": 194.0,
+        "anterior": 194.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 187.0,
+        "anterior": 187.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 217.0,
+        "anterior": 217.0,
+        "variacion": 0.0
+      },
+      "avena": {
+        "precio": 194.0,
+        "anterior": 194.0,
+        "variacion": 0.0
+      },
+      "centeno": {
+        "precio": 171.0,
+        "anterior": 171.0,
+        "variacion": 0.0
+      },
+      "triticale": {
+        "precio": 191.5,
+        "anterior": 191.0,
+        "variacion": 0.5
+      }
     },
     "toledo": {
-      "trigo": { "precio": 228.00, "anterior": 226.50, "variacion": 1.50 },
-      "cebada": { "precio": 194.00, "anterior": 194.50, "variacion": -0.50 },
-      "maiz": { "precio": 217.00, "anterior": 216.00, "variacion": 1.00 },
-      "avena": { "precio": 195.00, "anterior": 194.00, "variacion": 1.00 },
-      "centeno": { "precio": 187.00, "anterior": 186.50, "variacion": 0.50 },
-      "triticale": { "precio": 190.00, "anterior": 189.50, "variacion": 0.50 },
-      "girasol": { "precio": 368.00, "anterior": 366.00, "variacion": 2.00 },
-      "colza": { "precio": 418.00, "anterior": 416.00, "variacion": 2.00 }
+      "trigo": {
+        "precio": 196.0,
+        "anterior": 196.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 187.0,
+        "anterior": 187.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 223.0,
+        "anterior": 223.0,
+        "variacion": 0.0
+      },
+      "avena": {
+        "precio": 195.0,
+        "anterior": 194.0,
+        "variacion": 1.0
+      },
+      "centeno": {
+        "precio": 187.0,
+        "anterior": 186.5,
+        "variacion": 0.5
+      },
+      "triticale": {
+        "precio": 189.0,
+        "anterior": 189.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 368.0,
+        "anterior": 366.0,
+        "variacion": 2.0
+      },
+      "colza": {
+        "precio": 418.0,
+        "anterior": 416.0,
+        "variacion": 2.0
+      }
     },
     "sevilla": {
-      "trigo": { "precio": 221.00, "anterior": 220.00, "variacion": 1.00 },
-      "cebada": { "precio": 191.00, "anterior": 191.50, "variacion": -0.50 },
-      "maiz": { "precio": 219.00, "anterior": 218.00, "variacion": 1.00 },
-      "girasol": { "precio": 363.00, "anterior": 361.00, "variacion": 2.00 }
+      "trigo": {
+        "precio": 221.0,
+        "anterior": 220.0,
+        "variacion": 1.0
+      },
+      "cebada": {
+        "precio": 191.0,
+        "anterior": 191.5,
+        "variacion": -0.5
+      },
+      "maiz": {
+        "precio": 219.0,
+        "anterior": 218.0,
+        "variacion": 1.0
+      },
+      "girasol": {
+        "precio": 363.0,
+        "anterior": 361.0,
+        "variacion": 2.0
+      }
     },
     "albacete": {
-      "trigo": { "precio": 224.00, "anterior": 222.50, "variacion": 1.50 },
-      "cebada": { "precio": 193.00, "anterior": 193.50, "variacion": -0.50 },
-      "maiz": { "precio": 215.50, "anterior": 215.00, "variacion": 0.50 },
-      "avena": { "precio": 196.00, "anterior": 195.00, "variacion": 1.00 },
-      "centeno": { "precio": 185.00, "anterior": 184.50, "variacion": 0.50 },
-      "triticale": { "precio": 188.00, "anterior": 187.50, "variacion": 0.50 },
-      "girasol": { "precio": 366.00, "anterior": 364.00, "variacion": 2.00 }
+      "trigo": {
+        "precio": 224.0,
+        "anterior": 222.5,
+        "variacion": 1.5
+      },
+      "cebada": {
+        "precio": 193.0,
+        "anterior": 193.5,
+        "variacion": -0.5
+      },
+      "maiz": {
+        "precio": 215.5,
+        "anterior": 215.0,
+        "variacion": 0.5
+      },
+      "avena": {
+        "precio": 196.0,
+        "anterior": 195.0,
+        "variacion": 1.0
+      },
+      "centeno": {
+        "precio": 185.0,
+        "anterior": 184.5,
+        "variacion": 0.5
+      },
+      "triticale": {
+        "precio": 188.0,
+        "anterior": 187.5,
+        "variacion": 0.5
+      },
+      "girasol": {
+        "precio": 366.0,
+        "anterior": 364.0,
+        "variacion": 2.0
+      }
     },
     "valladolid": {
-      "trigo": { "precio": 225.00, "anterior": 223.50, "variacion": 1.50 },
-      "cebada": { "precio": 195.00, "anterior": 195.50, "variacion": -0.50 },
-      "maiz": { "precio": 214.00, "anterior": 213.00, "variacion": 1.00 },
-      "avena": { "precio": 196.50, "anterior": 195.50, "variacion": 1.00 },
-      "girasol": { "precio": 370.00, "anterior": 368.00, "variacion": 2.00 },
-      "colza": { "precio": 416.00, "anterior": 414.00, "variacion": 2.00 }
+      "trigo": {
+        "precio": 195.0,
+        "anterior": 195.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 187.0,
+        "anterior": 187.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 199.0,
+        "anterior": 199.0,
+        "variacion": 0.0
+      },
+      "avena": {
+        "precio": 148.0,
+        "anterior": 148.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 205.0,
+        "anterior": 205.0,
+        "variacion": 0.0
+      },
+      "colza": {
+        "precio": 416.0,
+        "anterior": 414.0,
+        "variacion": 2.0
+      },
+      "centeno": {
+        "precio": 170.0,
+        "anterior": 170.0,
+        "variacion": 0.0
+      }
     },
     "burgos": {
-      "trigo": { "precio": 223.50, "anterior": 222.00, "variacion": 1.50 },
-      "cebada": { "precio": 194.50, "anterior": 195.00, "variacion": -0.50 },
-      "avena": { "precio": 195.00, "anterior": 194.00, "variacion": 1.00 },
-      "centeno": { "precio": 187.50, "anterior": 187.00, "variacion": 0.50 }
+      "trigo": {
+        "precio": 193.0,
+        "anterior": 193.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 185.0,
+        "anterior": 185.0,
+        "variacion": 0.0
+      },
+      "avena": {
+        "precio": 195.0,
+        "anterior": 194.0,
+        "variacion": 1.0
+      },
+      "centeno": {
+        "precio": 187.5,
+        "anterior": 187.0,
+        "variacion": 0.5
+      }
     },
     "ebro": {
-      "trigo": { "precio": 230.00, "anterior": 228.50, "variacion": 1.50 },
-      "cebada": { "precio": 197.00, "anterior": 197.50, "variacion": -0.50 },
-      "maiz": { "precio": 218.00, "anterior": 217.00, "variacion": 1.00 },
-      "avena": { "precio": 199.00, "anterior": 198.00, "variacion": 1.00 },
-      "girasol": { "precio": 373.00, "anterior": 371.00, "variacion": 2.00 }
+      "trigo": {
+        "precio": 221.0,
+        "anterior": 221.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 202.0,
+        "anterior": 202.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 219.0,
+        "anterior": 219.0,
+        "variacion": 0.0
+      },
+      "avena": {
+        "precio": 158.0,
+        "anterior": 158.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 373.0,
+        "anterior": 371.0,
+        "variacion": 2.0
+      },
+      "centeno": {
+        "precio": 196.0,
+        "anterior": 196.0,
+        "variacion": 0.0
+      }
     },
     "salamanca": {
-      "trigo": { "precio": 224.50, "anterior": 223.00, "variacion": 1.50 },
-      "cebada": { "precio": 195.50, "anterior": 196.00, "variacion": -0.50 },
-      "avena": { "precio": 196.50, "anterior": 195.50, "variacion": 1.00 },
-      "centeno": { "precio": 188.00, "anterior": 187.50, "variacion": 0.50 },
-      "girasol": { "precio": 367.00, "anterior": 365.00, "variacion": 2.00 }
+      "trigo": {
+        "precio": 201.0,
+        "anterior": 201.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 196.0,
+        "anterior": 196.0,
+        "variacion": 0.0
+      },
+      "avena": {
+        "precio": 143.0,
+        "anterior": 143.0,
+        "variacion": 0.0
+      },
+      "centeno": {
+        "precio": 186.0,
+        "anterior": 186.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 367.0,
+        "anterior": 365.0,
+        "variacion": 2.0
+      },
+      "maiz": {
+        "precio": 217.0,
+        "anterior": 217.0,
+        "variacion": 0.0
+      }
     },
     "segovia": {
-      "trigo": { "precio": 224.00, "anterior": 222.50, "variacion": 1.50 },
-      "cebada": { "precio": 194.00, "anterior": 194.50, "variacion": -0.50 },
-      "avena": { "precio": 195.50, "anterior": 194.50, "variacion": 1.00 }
+      "trigo": {
+        "precio": 193.0,
+        "anterior": 193.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 185.0,
+        "anterior": 185.0,
+        "variacion": 0.0
+      },
+      "avena": {
+        "precio": 195.5,
+        "anterior": 194.5,
+        "variacion": 1.0
+      },
+      "centeno": {
+        "precio": 169.0,
+        "anterior": 169.0,
+        "variacion": 0.0
+      }
     },
     "zamora": {
-      "trigo": { "precio": 223.50, "anterior": 222.00, "variacion": 1.50 },
-      "cebada": { "precio": 194.50, "anterior": 195.00, "variacion": -0.50 },
-      "maiz": { "precio": 213.00, "anterior": 212.00, "variacion": 1.00 },
-      "centeno": { "precio": 186.50, "anterior": 186.00, "variacion": 0.50 }
+      "trigo": {
+        "precio": 223.5,
+        "anterior": 222.0,
+        "variacion": 1.5
+      },
+      "cebada": {
+        "precio": 194.5,
+        "anterior": 195.0,
+        "variacion": -0.5
+      },
+      "maiz": {
+        "precio": 213.0,
+        "anterior": 212.0,
+        "variacion": 1.0
+      },
+      "centeno": {
+        "precio": 186.5,
+        "anterior": 186.0,
+        "variacion": 0.5
+      }
     },
     "cordoba": {
-      "trigo": { "precio": 222.00, "anterior": 221.00, "variacion": 1.00 },
-      "cebada": { "precio": 192.00, "anterior": 192.50, "variacion": -0.50 },
-      "maiz": { "precio": 220.00, "anterior": 219.00, "variacion": 1.00 },
-      "girasol": { "precio": 364.00, "anterior": 362.00, "variacion": 2.00 }
+      "trigo": {
+        "precio": 222.0,
+        "anterior": 221.0,
+        "variacion": 1.0
+      },
+      "cebada": {
+        "precio": 192.0,
+        "anterior": 192.5,
+        "variacion": -0.5
+      },
+      "maiz": {
+        "precio": 220.0,
+        "anterior": 219.0,
+        "variacion": 1.0
+      },
+      "girasol": {
+        "precio": 364.0,
+        "anterior": 362.0,
+        "variacion": 2.0
+      }
     },
     "barcelona": {
-      "trigo": { "precio": 233.00, "anterior": 231.50, "variacion": 1.50 },
-      "cebada": { "precio": 199.00, "anterior": 199.50, "variacion": -0.50 },
-      "maiz": { "precio": 223.00, "anterior": 222.00, "variacion": 1.00 },
-      "avena": { "precio": 201.00, "anterior": 200.00, "variacion": 1.00 }
+      "trigo": {
+        "precio": 233.0,
+        "anterior": 231.5,
+        "variacion": 1.5
+      },
+      "cebada": {
+        "precio": 215.0,
+        "anterior": 199.0,
+        "variacion": 16.0
+      },
+      "maiz": {
+        "precio": 214.0,
+        "anterior": 223.0,
+        "variacion": -9.0
+      },
+      "avena": {
+        "precio": 201.0,
+        "anterior": 200.0,
+        "variacion": 1.0
+      },
+      "centeno": {
+        "precio": 198.0,
+        "anterior": 198.0,
+        "variacion": 0.0
+      },
+      "colza": {
+        "precio": 253.0,
+        "anterior": 253.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 265.0,
+        "anterior": 265.0,
+        "variacion": 0.0
+      }
     }
   }
 }
