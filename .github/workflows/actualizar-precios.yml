@@ -2,8 +2,12 @@ name: Actualizar Precios de Cereales
 
 on:
   schedule:
-    # Todos los días a las 14:00 UTC (15:00 hora España)
-    - cron: '0 14 * * *'
+    # 12:00 hora España (11:00 UTC)
+    - cron: '0 11 * * *'
+    # 16:00 hora España (15:00 UTC)
+    - cron: '0 15 * * *'
+    # 20:00 hora España (19:00 UTC)
+    - cron: '0 19 * * *'
   workflow_dispatch:  # Permite ejecución manual desde GitHub
 
 permissions:
