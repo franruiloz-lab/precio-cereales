@@ -5,7 +5,7 @@ interface Props {
   items: BreadcrumbItem[];
 }
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const { items } = Astro.props;
 const allItems = [{ name: 'Inicio', url: '/' }, ...items];
 const schema = generateBreadcrumbSchema(allItems);

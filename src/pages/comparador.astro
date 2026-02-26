@@ -4,7 +4,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import VariacionBadge from '../components/VariacionBadge.astro';
 import { getCereales, getLonjas, getSemanaActual, formatPrecio, formatFecha } from '../utils/precios';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const semana = getSemanaActual();
 const cereales = getCereales();
 const lonjas = getLonjas();

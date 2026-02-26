@@ -6,7 +6,7 @@ import FAQ from '../../components/FAQ.astro';
 import { getLonjas, getLonja, getSemanaActual, getPreciosLonja, formatPrecio, formatFecha, getMesActual, getAnioActual } from '../../utils/precios';
 import { generateLocalBusinessSchema } from '../../utils/seo';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 export function getStaticPaths() {
   const lonjas = getLonjas();

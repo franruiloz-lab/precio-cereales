@@ -4,7 +4,7 @@ import VariacionBadge from '../components/VariacionBadge.astro';
 import { getCereales, getLonjas, getSemanaActual, getPrecioMedioCereal, getVariacionMediaCereal, formatPrecio, formatFecha, getMesActual, getAnioActual } from '../utils/precios';
 import { generateOrganizationSchema, generateWebSiteSchema } from '../utils/seo';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const semana = getSemanaActual();
 const cereales = getCereales();
 const lonjas = getLonjas();

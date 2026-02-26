@@ -1,7 +1,7 @@
 ---
 import { getCereales, getLonjas } from '../utils/precios';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const cereales = getCereales();
 const lonjas = getLonjas().slice(0, 6);
 ---

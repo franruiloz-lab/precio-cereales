@@ -4,8 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://franruiloz-lab.github.io',
-  base: '/precio-cereales',
+  site: 'https://elcereal.com',
   vite: {
     plugins: [tailwindcss()]
   },

@@ -1,8 +1,7 @@
-const SITE_URL = 'https://franruiloz-lab.github.io';
-const BASE_PATH = '/precio-cereales';
+const SITE_URL = 'https://elcereal.com';
 
 export function siteUrl(path: string): string {
-  return `${SITE_URL}${BASE_PATH}${path}`;
+  return `${SITE_URL}${path}`;
 }
 
 export interface SEOProps {

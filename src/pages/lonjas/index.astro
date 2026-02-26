@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getLonjas, getSemanaActual } from '../../utils/precios';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const lonjas = getLonjas();
 const semana = getSemanaActual();
 
