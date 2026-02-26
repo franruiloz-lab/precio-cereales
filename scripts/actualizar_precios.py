@@ -139,6 +139,21 @@ def guardar_json(datos_semana):
     print(f"  Guardado: {filepath}")
 
 
+def guardar_ultima_actualizacion(datos_semana):
+    """Guarda la fecha y hora de la última actualización."""
+    filepath = DATA_DIR / "ultima-actualizacion.json"
+    contenido = {
+        "fecha": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "semana": datos_semana["semana"],
+        "anio": datos_semana["anio"],
+        "lonjas": len(datos_semana["precios"]),
+        "precios": sum(len(c) for c in datos_semana["precios"].values()),
+    }
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(contenido, f, ensure_ascii=False, indent=2)
+    print(f"  Guardado: {filepath}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Actualizar precios de cereales")
     parser.add_argument("--semana", type=int, help="Número de semana ISO (por defecto: actual)")
@@ -235,6 +250,7 @@ def main():
             print(f"  - {e}")
 
     guardar_json(datos_semana)
+    guardar_ultima_actualizacion(datos_semana)
     print("\nOK Actualización completada.")
 
 
