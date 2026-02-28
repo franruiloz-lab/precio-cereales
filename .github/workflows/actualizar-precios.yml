@@ -12,10 +12,18 @@ on:
 
 permissions:
   contents: write  # Necesario para hacer push
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check_changes.outputs.changed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,3 +55,37 @@ jobs:
           git add src/data/precios/ src/data/ultima-actualizacion.json
           git commit -m "Actualizar precios de cereales $(date -u +%Y-%m-%d)"
           git push
+
+  deploy:
+    needs: actualizar
+    if: needs.actualizar.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main  # Asegura que coge el commit recién hecho
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Instalar dependencias Node
+        run: npm ci
+
+      - name: Build con Astro
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy a GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
