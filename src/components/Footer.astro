@@ -64,8 +64,13 @@ const lonjas = getLonjas().slice(0, 6);
       </div>
     </div>
 
-    <div class="border-t border-gray-800 mt-8 pt-8 text-center text-xs text-gray-500">
-      <p>&copy; {new Date().getFullYear()} Precios Cereales. Los precios mostrados son informativos y no vinculantes. Fuente: lonjas agropecuarias oficiales de España.</p>
+    <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+      <p>&copy; {new Date().getFullYear()} elcereal.com &mdash; Precios informativos, no vinculantes. Fuente: lonjas agropecuarias oficiales de España.</p>
+      <nav class="flex gap-4 flex-wrap justify-center">
+        <a href={`${base}/aviso-legal/`} class="hover:text-gray-300 transition-colors">Aviso legal</a>
+        <a href={`${base}/politica-privacidad/`} class="hover:text-gray-300 transition-colors">Privacidad</a>
+        <a href={`${base}/politica-cookies/`} class="hover:text-gray-300 transition-colors">Cookies</a>
+      </nav>
     </div>
   </div>
 </footer>

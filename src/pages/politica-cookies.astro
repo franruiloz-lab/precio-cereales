@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const seo = {
+  title: 'Política de Cookies - elcereal.com',
+  description: 'Política de cookies de elcereal.com. Información sobre el uso de cookies en el portal de precios de cereales.',
+  noindex: false,
+};
+---
+
+<Layout seo={seo}>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">Política de Cookies</h1>
+    <p class="text-sm text-gray-500 mb-10">Última actualización: marzo de 2025</p>
+
+    <div class="prose prose-gray max-w-none space-y-8">
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">1. ¿Qué son las cookies?</h2>
+        <p class="text-gray-600">
+          Las cookies son pequeños archivos de texto que un sitio web almacena en el dispositivo del usuario al visitarlo. Se utilizan habitualmente para recordar preferencias, mantener sesiones o recopilar información estadística de navegación.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">2. ¿Utiliza elcereal.com cookies?</h2>
+        <p class="text-gray-600">
+          <strong>elcereal.com no instala cookies propias ni de terceros.</strong>
+        </p>
+        <p class="text-gray-600 mt-2">
+          Este sitio web es completamente estático: no dispone de sistema de análisis de visitas, publicidad, funciones sociales ni ningún otro servicio que requiera el uso de cookies. Por tanto, no es necesario aceptar ni gestionar cookies para utilizar el sitio.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">3. Almacenamiento local (localStorage)</h2>
+        <p class="text-gray-600">
+          El comparador de precios de elcereal.com puede utilizar el <strong>almacenamiento local del navegador</strong> (localStorage) para guardar temporalmente las selecciones que realice el usuario durante la sesión de comparación. Este mecanismo es distinto de las cookies: los datos nunca se envían al servidor y permanecen únicamente en el navegador del usuario.
+        </p>
+        <p class="text-gray-600 mt-2">
+          Puede eliminar estos datos en cualquier momento desde la configuración de su navegador (Ajustes → Privacidad → Borrar datos de navegación → Datos del sitio).
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">4. Gestión de cookies del navegador</h2>
+        <p class="text-gray-600">
+          Aunque elcereal.com no instala cookies, puede gestionar y eliminar cualquier cookie desde la configuración de su navegador:
+        </p>
+        <ul class="mt-3 space-y-1 text-gray-600 list-disc pl-5">
+          <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener" class="text-primary hover:underline">Google Chrome</a></li>
+          <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener" class="text-primary hover:underline">Mozilla Firefox</a></li>
+          <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener" class="text-primary hover:underline">Apple Safari</a></li>
+          <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener" class="text-primary hover:underline">Microsoft Edge</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">5. Cambios en esta política</h2>
+        <p class="text-gray-600">
+          Si en el futuro elcereal.com incorporara cookies de cualquier tipo, esta política se actualizaría previamente y, en caso de cookies no esenciales, se solicitaría el consentimiento del usuario conforme a la normativa vigente.
+        </p>
+        <p class="text-gray-600 mt-2">
+          Puede consultar más información sobre cookies en la web de la <a href="https://www.aepd.es" target="_blank" rel="noopener" class="text-primary hover:underline">Agencia Española de Protección de Datos (AEPD)</a>.
+        </p>
+      </section>
+
+    </div>
+  </div>
+</Layout>

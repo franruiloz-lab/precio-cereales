@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const seo = {
+  title: 'Aviso Legal - elcereal.com',
+  description: 'Aviso legal e información sobre el titular del sitio web elcereal.com, portal de precios de cereales en España.',
+  noindex: false,
+};
+---
+
+<Layout seo={seo}>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">Aviso Legal</h1>
+    <p class="text-sm text-gray-500 mb-10">Última actualización: marzo de 2025</p>
+
+    <div class="prose prose-gray max-w-none space-y-8">
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">1. Titular del sitio web</h2>
+        <p class="text-gray-600">
+          En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSICE), se informa de los datos del titular:
+        </p>
+        <ul class="mt-3 space-y-1 text-gray-600 list-none pl-0">
+          <li><strong>Titular:</strong> [Nombre y apellidos o razón social]</li>
+          <li><strong>NIF/CIF:</strong> [NIF del titular]</li>
+          <li><strong>Domicilio:</strong> [Dirección postal]</li>
+          <li><strong>Correo electrónico:</strong> <a href="mailto:legal@elcereal.com" class="text-primary hover:underline">legal@elcereal.com</a></li>
+          <li><strong>Nombre de dominio:</strong> elcereal.com</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">2. Objeto y actividad</h2>
+        <p class="text-gray-600">
+          <strong>elcereal.com</strong> es un portal informativo que recopila y publica cotizaciones de precios de cereales (trigo, cebada, maíz, avena, centeno y otros) procedentes de lonjas agropecuarias oficiales de España.
+        </p>
+        <p class="text-gray-600 mt-2">
+          Los precios publicados tienen carácter exclusivamente informativo y orientativo. No constituyen oferta de compraventa ni precio vinculante. Para operaciones comerciales, consúltense directamente las lonjas correspondientes.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">3. Condiciones de uso</h2>
+        <p class="text-gray-600">
+          El acceso y uso de este sitio web es libre y gratuito. El usuario se compromete a hacer un uso adecuado de los contenidos y a no emplearlos para actividades ilícitas o contrarias a la ley.
+        </p>
+        <p class="text-gray-600 mt-2">
+          El titular se reserva el derecho a modificar, suspender o interrumpir el acceso al sitio web en cualquier momento y sin previo aviso.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">4. Propiedad intelectual e industrial</h2>
+        <p class="text-gray-600">
+          Los textos, diseño, estructura, código y demás elementos propios de elcereal.com están protegidos por la legislación española e internacional de propiedad intelectual. Queda prohibida su reproducción, distribución, comunicación pública o transformación sin autorización expresa del titular.
+        </p>
+        <p class="text-gray-600 mt-2">
+          Los datos de precios proceden de fuentes públicas (lonjas agropecuarias y organismos oficiales). El titular no reclama derechos sobre dichos datos originales.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">5. Limitación de responsabilidad</h2>
+        <p class="text-gray-600">
+          El titular no garantiza la exactitud, integridad ni actualidad de los precios publicados. Los datos se obtienen de fuentes públicas de forma automatizada y pueden contener errores o estar desactualizados.
+        </p>
+        <p class="text-gray-600 mt-2">
+          El titular no será responsable de ningún daño o perjuicio derivado del uso de la información publicada en este sitio, incluyendo decisiones comerciales basadas en los precios aquí mostrados.
+        </p>
+        <p class="text-gray-600 mt-2">
+          El sitio puede contener enlaces a terceros sobre los que el titular no ejerce control ni responsabilidad alguna.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">6. Ley aplicable y jurisdicción</h2>
+        <p class="text-gray-600">
+          Las presentes condiciones se rigen por la legislación española vigente. Para cualquier controversia derivada del uso de este sitio web, las partes se someten a los juzgados y tribunales competentes según la normativa aplicable.
+        </p>
+      </section>
+
+    </div>
+  </div>
+</Layout>
