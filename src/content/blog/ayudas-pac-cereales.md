@@ -9,7 +9,7 @@ readingTime: "14 min"
 
 ## La PAC: un pilar imprescindible para el cerealista español
 
-Para la inmensa mayoría de los productores de cereales en España, las ayudas de la **Política Agrícola Común (PAC)** no son un complemento de renta: son una parte esencial de la viabilidad económica de sus explotaciones. En un sector donde los márgenes son estrechos y la variabilidad de cosechas y precios --influida por [los mecanismos de fijación de precios del cereal](/precio-cereales/blog/como-se-fija-precio-cereal/)-- puede convertir un año aparentemente bueno en uno de pérdidas, los pagos directos de la PAC proporcionan un colchón de estabilidad sin el cual muchas explotaciones cerealistas simplemente no sobrevivirían.
+Para la inmensa mayoría de los productores de cereales en España, las ayudas de la **Política Agrícola Común (PAC)** no son un complemento de renta: son una parte esencial de la viabilidad económica de sus explotaciones. En un sector donde los márgenes son estrechos y la variabilidad de cosechas y precios --influida por [los mecanismos de fijación de precios del cereal](/blog/como-se-fija-precio-cereal/)-- puede convertir un año aparentemente bueno en uno de pérdidas, los pagos directos de la PAC proporcionan un colchón de estabilidad sin el cual muchas explotaciones cerealistas simplemente no sobrevivirían.
 
 Sin embargo, el sistema de ayudas de la PAC es también uno de los más complejos de la administración pública. Con la entrada en vigor del **Plan Estratégico de la PAC (PEPAC) 2023-2027**, las reglas del juego han cambiado significativamente respecto al periodo anterior, introduciendo nuevos conceptos como los eco-esquemas, la condicionalidad reforzada y la redistribución de pagos.
 
@@ -102,7 +102,7 @@ No directamente aplicable a cultivos herbáceos, salvo que la explotación inclu
 **Eco-esquema 2: Rotación de cultivos y siembra directa en tierras de cultivo**
 Este es probablemente el **eco-esquema más relevante para cerealistas**. Ofrece dos opciones:
 
-- **Opción A (Rotación de cultivos)**: el agricultor debe rotar los cultivos en sus parcelas, de manera que al menos el 50% de la superficie de cultivo tenga un cultivo diferente al del año anterior. Para un cerealista, esto puede significar alternar [distintos tipos de cereales](/precio-cereales/blog/tipos-cereales-espana/) como trigo con cebada, incluir leguminosas en la rotación o incorporar cultivos industriales como girasol o colza.
+- **Opción A (Rotación de cultivos)**: el agricultor debe rotar los cultivos en sus parcelas, de manera que al menos el 50% de la superficie de cultivo tenga un cultivo diferente al del año anterior. Para un cerealista, esto puede significar alternar [distintos tipos de cereales](/blog/tipos-cereales-espana/) como trigo con cebada, incluir leguminosas en la rotación o incorporar cultivos industriales como girasol o colza.
 - **Opción B (Siembra directa)**: consiste en establecer el cultivo sin laboreo previo del suelo, utilizando sembradoras de siembra directa. Esta práctica reduce la erosión, mejora la estructura del suelo y disminuye las emisiones de CO2.
 
 El pago estimado es de **50-70 EUR/ha** dependiendo de la opción y el tipo de superficie (secano/regadío).
@@ -133,11 +133,11 @@ Las ayudas acopladas son pagos vinculados directamente a la producción de deter
 
 ### Ayudas acopladas relevantes para rotaciones cerealistas
 
-Aunque no existe una ayuda acoplada específica para cereales como tales (trigo, cebada, maíz) --históricamente sí existió para el [trigo duro](/precio-cereales/blog/trigo-blando-vs-trigo-duro/), hoy desacoplada--, varias ayudas acopladas son relevantes para los cerealistas en el contexto de sus rotaciones:
+Aunque no existe una ayuda acoplada específica para cereales como tales (trigo, cebada, maíz) --históricamente sí existió para el [trigo duro](/blog/trigo-blando-vs-trigo-duro/), hoy desacoplada--, varias ayudas acopladas son relevantes para los cerealistas en el contexto de sus rotaciones:
 
 - **Cultivos proteicos**: existe una ayuda acoplada para leguminosas grano (guisantes, habas, vezas, garbanzos, lentejas, altramuces) y para oleaginosas proteicas (soja, colza). Estos cultivos son complementos habituales en las rotaciones cerealistas y la ayuda acoplada (en torno a **60-100 EUR/ha** según el cultivo) puede hacer que su inclusión sea económicamente más atractiva.
 
-- **Proteaginosas**: las proteaginosas (leguminosas grano destinadas principalmente a alimentación animal) reciben un apoyo específico que incentiva su cultivo como alternativa o complemento a los cereales, contribuyendo además a la fijación biológica de nitrógeno y a la mejora de la fertilidad del suelo. Los precios resultantes se publican en las [lonjas de cereales de toda España](/precio-cereales/blog/lonjas-cereales-espana/).
+- **Proteaginosas**: las proteaginosas (leguminosas grano destinadas principalmente a alimentación animal) reciben un apoyo específico que incentiva su cultivo como alternativa o complemento a los cereales, contribuyendo además a la fijación biológica de nitrógeno y a la mejora de la fertilidad del suelo. Los precios resultantes se publican en las [lonjas de cereales de toda España](/blog/lonjas-cereales-espana/).
 
 - **Remolacha azucarera**: en zonas donde la remolacha es parte de la rotación con cereales (principalmente Castilla y León), la ayuda acoplada a la remolacha puede mejorar la rentabilidad global de la rotación.
 
@@ -239,7 +239,7 @@ Los eco-esquemas representan un ingreso adicional significativo (50-70 EUR/ha o 
 
 ### 2. Planifica la rotación con visión PAC
 
-Diseña tu rotación de cultivos teniendo en cuenta tanto los requisitos de la condicionalidad reforzada (BCAM 7: rotación obligatoria) como los eco-esquemas (rotación como eco-esquema voluntario), respetando el [calendario de siembra y cosecha de cada cereal](/precio-cereales/blog/calendario-siembra-cosecha-cereales/). Una buena rotación puede cumplir ambos requisitos simultáneamente.
+Diseña tu rotación de cultivos teniendo en cuenta tanto los requisitos de la condicionalidad reforzada (BCAM 7: rotación obligatoria) como los eco-esquemas (rotación como eco-esquema voluntario), respetando el [calendario de siembra y cosecha de cada cereal](/blog/calendario-siembra-cosecha-cereales/). Una buena rotación puede cumplir ambos requisitos simultáneamente.
 
 ### 3. Incluye leguminosas en la rotación
 
@@ -261,6 +261,6 @@ El PEPAC se va ajustando año a año mediante normativa complementaria. Lo que e
 
 Las ayudas de la PAC no son un simple subsidio pasivo: son una **herramienta estratégica** que, bien gestionada, puede mejorar significativamente la rentabilidad de una explotación cerealista. La combinación de ABRS, pago redistributivo, eco-esquemas y ayudas acopladas a cultivos complementarios puede aportar entre **150 y 300 EUR/ha** o más, dependiendo de la zona y las prácticas adoptadas.
 
-En un contexto de márgenes cada vez más ajustados para los cereales, donde la diferencia entre beneficio y pérdida puede ser de apenas 20-30 EUR/ha, optimizar los ingresos PAC es tan importante como obtener buenos rendimientos en el campo o saber [cuándo vender el trigo y la cebada](/precio-cereales/blog/cuando-vender-trigo-cebada/) al mejor precio posible.
+En un contexto de márgenes cada vez más ajustados para los cereales, donde la diferencia entre beneficio y pérdida puede ser de apenas 20-30 EUR/ha, optimizar los ingresos PAC es tan importante como obtener buenos rendimientos en el campo o saber [cuándo vender el trigo y la cebada](/blog/cuando-vender-trigo-cebada/) al mejor precio posible.
 
-Para complementar esta información con datos sobre la evolución del [mercado de cereales en España](/precio-cereales/blog/mercado-cereales-espana/) y la situación actual de los [precios](/precio-cereales/precios/), te invitamos a consultar el resto de contenidos de nuestra web. Porque la rentabilidad de tu explotación depende tanto de lo que produces como de cómo lo comercializas y de cómo gestionas las ayudas que tienes a tu disposición.
+Para complementar esta información con datos sobre la evolución del [mercado de cereales en España](/blog/mercado-cereales-espana/) y la situación actual de los [precios](/precios/), te invitamos a consultar el resto de contenidos de nuestra web. Porque la rentabilidad de tu explotación depende tanto de lo que produces como de cómo lo comercializas y de cómo gestionas las ayudas que tienes a tu disposición.

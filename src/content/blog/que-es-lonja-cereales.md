@@ -11,7 +11,7 @@ readingTime: "10 min"
 
 Si alguna vez te has preguntado de dónde salen los precios del trigo o la cebada que escuchas en las noticias agrarias o que aparecen en los tablones de tu cooperativa, la respuesta, en la mayoría de los casos, es la misma: **de una lonja de cereales**.
 
-Una lonja de cereales es, en esencia, una **reunión periódica** (normalmente semanal) en la que representantes de la oferta y la demanda del sector cerealista se sientan a negociar y consensuar precios de referencia para los principales productos agrarios de una zona o región. No es una bolsa de valores ni un mercado de futuros. No se compra ni se vende grano físicamente en la lonja. Lo que se establece es un **precio orientativo** que sirve como referencia para las operaciones comerciales que se realizan posteriormente entre particulares, cooperativas y empresas. Si quieres profundizar en los mecanismos que determinan estas cotizaciones, consulta nuestro artículo sobre [cómo se fija el precio del cereal](/precio-cereales/blog/como-se-fija-precio-cereal/).
+Una lonja de cereales es, en esencia, una **reunión periódica** (normalmente semanal) en la que representantes de la oferta y la demanda del sector cerealista se sientan a negociar y consensuar precios de referencia para los principales productos agrarios de una zona o región. No es una bolsa de valores ni un mercado de futuros. No se compra ni se vende grano físicamente en la lonja. Lo que se establece es un **precio orientativo** que sirve como referencia para las operaciones comerciales que se realizan posteriormente entre particulares, cooperativas y empresas. Si quieres profundizar en los mecanismos que determinan estas cotizaciones, consulta nuestro artículo sobre [cómo se fija el precio del cereal](/blog/como-se-fija-precio-cereal/).
 
 En España, las lonjas agropecuarias llevan siglos cumpliendo esta función, y a pesar de la globalización y la digitalización del comercio, siguen siendo **la principal referencia de precios** para el mercado interior de cereales. Entender cómo funcionan, quién participa y qué significan realmente los precios que publican es fundamental para cualquier agricultor, ganadero o profesional del sector.
 
@@ -154,7 +154,7 @@ Muchas cooperativas utilizan los precios de lonja como referencia para calcular 
 
 ### Indicador de tendencia
 
-Seguir la evolución semanal de los precios de lonja permite al agricultor identificar **tendencias de mercado** y tomar decisiones más informadas sobre [cuándo vender su trigo y cebada](/precio-cereales/blog/cuando-vender-trigo-cebada/). Una serie de subidas consecutivas puede indicar un mercado alcista, mientras que bajadas sostenidas sugieren debilidad.
+Seguir la evolución semanal de los precios de lonja permite al agricultor identificar **tendencias de mercado** y tomar decisiones más informadas sobre [cuándo vender su trigo y cebada](/blog/cuando-vender-trigo-cebada/). Una serie de subidas consecutivas puede indicar un mercado alcista, mientras que bajadas sostenidas sugieren debilidad.
 
 ### Referencia en contratos
 
@@ -162,7 +162,7 @@ Algunos contratos de compraventa de cereales incluyen cláusulas que vinculan el
 
 ### Información para la planificación
 
-Los precios de lonja, analizados en series históricas, son una herramienta valiosa para la **planificación de cultivos**. Utilizar un [comparador de precios entre lonjas](/precio-cereales/comparador/) para contrastar la evolución de trigo, cebada, maíz y otros cultivos a lo largo de varias campañas puede ayudar al agricultor a decidir qué sembrar en función de las perspectivas de rentabilidad.
+Los precios de lonja, analizados en series históricas, son una herramienta valiosa para la **planificación de cultivos**. Utilizar un [comparador de precios entre lonjas](/comparador/) para contrastar la evolución de trigo, cebada, maíz y otros cultivos a lo largo de varias campañas puede ayudar al agricultor a decidir qué sembrar en función de las perspectivas de rentabilidad.
 
 ## Limitaciones del sistema de lonjas
 
@@ -173,12 +173,12 @@ A pesar de su importancia, el sistema de lonjas no está exento de críticas y l
 - **Falta de homogeneidad**: las condiciones de cotización y las metodologías varían de una lonja a otra, lo que dificulta las comparaciones directas.
 - **Posible inercia**: en algunas lonjas, los precios tienden a moverse lentamente, repitiendo cotizaciones anteriores cuando el mercado ya se ha movido.
 
-Estas limitaciones explican por qué muchos operadores complementan la información de lonjas con **datos del mercado internacional, precios de puerto y cotizaciones en origen** para tener una visión más completa del mercado. En nuestro artículo sobre [dónde consultar la cotización de cereales](/precio-cereales/blog/cotizacion-cereales-donde-consultar/) repasamos todas las fuentes disponibles.
+Estas limitaciones explican por qué muchos operadores complementan la información de lonjas con **datos del mercado internacional, precios de puerto y cotizaciones en origen** para tener una visión más completa del mercado. En nuestro artículo sobre [dónde consultar la cotización de cereales](/blog/cotizacion-cereales-donde-consultar/) repasamos todas las fuentes disponibles.
 
 ## Conclusión
 
 Las lonjas de cereales son una pieza fundamental del engranaje comercial del sector cerealista español. Aunque su formato pueda parecer anacrónico en la era digital, su función como **punto de encuentro entre oferta y demanda** y como **generador de precios de referencia** sigue siendo insustituible.
 
-Para el agricultor, conocer cómo funcionan las lonjas, qué significan sus precios y cuáles son sus limitaciones es una herramienta más para tomar mejores decisiones de comercialización. Entender el contexto más amplio del [mercado cerealista español](/precio-cereales/blog/mercado-cereales-espana/) ayuda a interpretar mejor estas cotizaciones. Te recomendamos consultar regularmente los [precios actualizados de cereales](/precio-cereales/precios/) publicados por las [lonjas españolas](/precio-cereales/lonjas/) y combinar esa información con el análisis más amplio que ofrecemos en nuestro artículo sobre las [lonjas de cereales en España](/precio-cereales/blog/lonjas-cereales-espana/).
+Para el agricultor, conocer cómo funcionan las lonjas, qué significan sus precios y cuáles son sus limitaciones es una herramienta más para tomar mejores decisiones de comercialización. Entender el contexto más amplio del [mercado cerealista español](/blog/mercado-cereales-espana/) ayuda a interpretar mejor estas cotizaciones. Te recomendamos consultar regularmente los [precios actualizados de cereales](/precios/) publicados por las [lonjas españolas](/lonjas/) y combinar esa información con el análisis más amplio que ofrecemos en nuestro artículo sobre las [lonjas de cereales en España](/blog/lonjas-cereales-espana/).
 
 La clave está en utilizar los precios de lonja como lo que son: una referencia valiosa, pero no la única, para navegar el mercado cerealista con criterio y fundamento.

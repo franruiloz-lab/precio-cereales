@@ -11,9 +11,9 @@ readingTime: "12 min"
 
 Si eres agricultor, ganadero, cooperativista o simplemente alguien vinculado al sector cerealista, sabrás que las **lonjas agropecuarias** son la referencia obligada para conocer los precios de los cereales en España. Sin embargo, encontrar un directorio actualizado con todas las lonjas, sus días de sesión y los productos que cotizan no es tarea fácil.
 
-En este artículo hemos recopilado **todas las lonjas de cereales activas en España**, organizadas por comunidad autónoma. Para cada una incluimos el día de celebración, la frecuencia de las sesiones, los principales productos cotizados y el enlace a su página oficial. Si quieres entender mejor qué es una lonja y cómo funciona, te recomendamos nuestro artículo dedicado sobre [qué es una lonja de cereales](/precio-cereales/blog/que-es-lonja-cereales/).
+En este artículo hemos recopilado **todas las lonjas de cereales activas en España**, organizadas por comunidad autónoma. Para cada una incluimos el día de celebración, la frecuencia de las sesiones, los principales productos cotizados y el enlace a su página oficial. Si quieres entender mejor qué es una lonja y cómo funciona, te recomendamos nuestro artículo dedicado sobre [qué es una lonja de cereales](/blog/que-es-lonja-cereales/).
 
-También puedes consultar directamente los [precios actualizados](/precio-cereales/precios/) de todas las lonjas en nuestra web, donde recopilamos las cotizaciones cada semana de forma automática.
+También puedes consultar directamente los [precios actualizados](/precios/) de todas las lonjas en nuestra web, donde recopilamos las cotizaciones cada semana de forma automática.
 
 ---
 
@@ -25,7 +25,7 @@ La Junta de Castilla y León publica semanalmente un documento Excel que recopil
 
 ### Lonja de León
 
-La [Lonja Agropecuaria de León](/precio-cereales/lonjas/leon/) es una de las más veteranas y respetadas del panorama cerealista español. Su ámbito de influencia abarca toda la provincia de León y parte de las comarcas limítrofes de Zamora y Asturias.
+La [Lonja Agropecuaria de León](/lonjas/leon/) es una de las más veteranas y respetadas del panorama cerealista español. Su ámbito de influencia abarca toda la provincia de León y parte de las comarcas limítrofes de Zamora y Asturias.
 
 - **Día de sesión:** Miércoles
 - **Frecuencia:** Semanal
@@ -36,7 +36,7 @@ La [Lonja Agropecuaria de León](/precio-cereales/lonjas/leon/) es una de las m�
 
 ### Lonja de Valladolid y Palencia
 
-La [Lonja de Valladolid y Palencia](/precio-cereales/lonjas/valladolid/) es una de las más recientes en su formato actual. Desde mayo de 2024, las antiguas lonjas independientes de Valladolid y Palencia se fusionaron en una única mesa de cotización, buscando ganar representatividad y simplificar la operativa para los agentes del sector.
+La [Lonja de Valladolid y Palencia](/lonjas/valladolid/) es una de las más recientes en su formato actual. Desde mayo de 2024, las antiguas lonjas independientes de Valladolid y Palencia se fusionaron en una única mesa de cotización, buscando ganar representatividad y simplificar la operativa para los agentes del sector.
 
 - **Día de sesión:** Viernes
 - **Frecuencia:** Semanal
@@ -46,7 +46,7 @@ La [Lonja de Valladolid y Palencia](/precio-cereales/lonjas/valladolid/) es una 
 
 ### Lonja de Salamanca
 
-La [Lonja de Salamanca](/precio-cereales/lonjas/salamanca/) abre la semana cerealista los lunes. Es especialmente relevante para las zonas del suroeste de Castilla y León, con una fuerte tradición ganadera que influye en la demanda de cereales pienso.
+La [Lonja de Salamanca](/lonjas/salamanca/) abre la semana cerealista los lunes. Es especialmente relevante para las zonas del suroeste de Castilla y León, con una fuerte tradición ganadera que influye en la demanda de cereales pienso.
 
 - **Día de sesión:** Lunes
 - **Frecuencia:** Semanal
@@ -56,7 +56,7 @@ La [Lonja de Salamanca](/precio-cereales/lonjas/salamanca/) abre la semana cerea
 
 ### Lonja de Segovia
 
-Segovia, pese a ser una provincia relativamente pequeña, cuenta con una [lonja agropecuaria](/precio-cereales/lonjas/segovia/) muy activa que refleja fielmente la realidad del mercado de la España central.
+Segovia, pese a ser una provincia relativamente pequeña, cuenta con una [lonja agropecuaria](/lonjas/segovia/) muy activa que refleja fielmente la realidad del mercado de la España central.
 
 - **Día de sesión:** Jueves
 - **Frecuencia:** Semanal
@@ -66,7 +66,7 @@ Segovia, pese a ser una provincia relativamente pequeña, cuenta con una [lonja 
 
 ### Lonja de Burgos (Lerma)
 
-La [lonja de Burgos](/precio-cereales/lonjas/burgos/) tiene su sede en la localidad de Lerma, punto neurálgico del comercio agrario del norte de la meseta. Es una referencia importante para toda la provincia de Burgos y las zonas del norte de Castilla.
+La [lonja de Burgos](/lonjas/burgos/) tiene su sede en la localidad de Lerma, punto neurálgico del comercio agrario del norte de la meseta. Es una referencia importante para toda la provincia de Burgos y las zonas del norte de Castilla.
 
 - **Día de sesión:** Viernes
 - **Frecuencia:** Semanal
@@ -76,7 +76,7 @@ La [lonja de Burgos](/precio-cereales/lonjas/burgos/) tiene su sede en la locali
 
 ### Lonja de Zamora
 
-[Zamora](/precio-cereales/lonjas/zamora/) cierra el mapa de lonjas de Castilla y León con una sesión semanal los martes que atiende las necesidades de una provincia con fuerte vocación cerealista y ganadera.
+[Zamora](/lonjas/zamora/) cierra el mapa de lonjas de Castilla y León con una sesión semanal los martes que atiende las necesidades de una provincia con fuerte vocación cerealista y ganadera.
 
 - **Día de sesión:** Martes
 - **Frecuencia:** Semanal
@@ -92,7 +92,7 @@ Castilla-La Mancha es la segunda gran región cerealista de España, con especia
 
 ### Lonja de Toledo (FEDETO)
 
-La [Lonja de Toledo](/precio-cereales/lonjas/toledo/), organizada por la Federación Empresarial Toledana (FEDETO), es la principal referencia de precios para toda Castilla-La Mancha. Su carácter quincenal la diferencia de la mayoría de lonjas castellanoleonesas.
+La [Lonja de Toledo](/lonjas/toledo/), organizada por la Federación Empresarial Toledana (FEDETO), es la principal referencia de precios para toda Castilla-La Mancha. Su carácter quincenal la diferencia de la mayoría de lonjas castellanoleonesas.
 
 - **Día de sesión:** Viernes a las 19:30
 - **Frecuencia:** Quincenal
@@ -103,7 +103,7 @@ La [Lonja de Toledo](/precio-cereales/lonjas/toledo/), organizada por la Federac
 
 ### Lonja de Albacete
 
-[Albacete](/precio-cereales/lonjas/albacete/), en el sureste de Castilla-La Mancha, cuenta con una lonja que es referencia para las zonas de transición entre la meseta y el Levante español.
+[Albacete](/lonjas/albacete/), en el sureste de Castilla-La Mancha, cuenta con una lonja que es referencia para las zonas de transición entre la meseta y el Levante español.
 
 - **Día de sesión:** Jueves a las 12:00
 - **Frecuencia:** Semanal
@@ -119,7 +119,7 @@ Andalucía es la tercera comunidad en importancia cerealista, con una particular
 
 ### Lonja de Sevilla
 
-La [Lonja de Sevilla](/precio-cereales/lonjas/sevilla/) es, junto con la de León, una de las más completas y prestigiosas de España. Su ámbito de influencia abarca toda Andalucía occidental y parte de Extremadura.
+La [Lonja de Sevilla](/lonjas/sevilla/) es, junto con la de León, una de las más completas y prestigiosas de España. Su ámbito de influencia abarca toda Andalucía occidental y parte de Extremadura.
 
 - **Día de sesión:** Martes a las 09:30
 - **Frecuencia:** Semanal
@@ -130,7 +130,7 @@ La [Lonja de Sevilla](/precio-cereales/lonjas/sevilla/) es, junto con la de Leó
 
 ### Lonja de Córdoba
 
-La [Lonja de Córdoba](/precio-cereales/lonjas/cordoba/) atiende al mercado de Andalucía central y oriental, una zona donde el olivar convive con el cereal y el girasol en las campiñas cordobesas y jiennenses.
+La [Lonja de Córdoba](/lonjas/cordoba/) atiende al mercado de Andalucía central y oriental, una zona donde el olivar convive con el cereal y el girasol en las campiñas cordobesas y jiennenses.
 
 - **Día de sesión:** Martes
 - **Frecuencia:** Quincenal (semanal en verano durante la campaña de cosecha)
@@ -146,7 +146,7 @@ Aragón es una comunidad con un peso enorme en la producción de cereales, espec
 
 ### Lonja del Ebro (Binéfar)
 
-La [Lonja Agropecuaria del Ebro](/precio-cereales/lonjas/ebro/), con sede en Binéfar, es la principal referencia de precios para todo el noreste de España. Su influencia se extiende desde Aragón hasta Navarra y La Rioja.
+La [Lonja Agropecuaria del Ebro](/lonjas/ebro/), con sede en Binéfar, es la principal referencia de precios para todo el noreste de España. Su influencia se extiende desde Aragón hasta Navarra y La Rioja.
 
 - **Día de sesión:** Miércoles
 - **Frecuencia:** Semanal
@@ -163,7 +163,7 @@ Cataluña, pese a tener una superficie cerealista menor que Castilla o Aragón, 
 
 ### Lonja de Barcelona (Mercolleida)
 
-La [Lonja de Cereales de Barcelona](/precio-cereales/lonjas/barcelona/), gestionada a través de la plataforma Mercolleida, es la referencia para todo el mercado catalán y buena parte del Levante español.
+La [Lonja de Cereales de Barcelona](/lonjas/barcelona/), gestionada a través de la plataforma Mercolleida, es la referencia para todo el mercado catalán y buena parte del Levante español.
 
 - **Día de sesión:** Martes de 12:00 a 15:00
 - **Frecuencia:** Semanal
@@ -176,7 +176,7 @@ La [Lonja de Cereales de Barcelona](/precio-cereales/lonjas/barcelona/), gestion
 
 ## Cómo funcionan las lonjas de cereales
 
-Para quien no esté familiarizado con el sistema, conviene explicar brevemente [qué es una lonja de cereales](/precio-cereales/blog/que-es-lonja-cereales/) y cómo opera.
+Para quien no esté familiarizado con el sistema, conviene explicar brevemente [qué es una lonja de cereales](/blog/que-es-lonja-cereales/) y cómo opera.
 
 Una lonja agropecuaria es un organismo de carácter sectorial --normalmente vinculado a una cámara de comercio, diputación provincial o federación empresarial-- donde representantes de la oferta (agricultores, cooperativas) y la demanda (fábricas de pienso, harineras, comerciantes) se reúnen periódicamente para fijar precios orientativos de los cereales y otros productos agrarios.
 
@@ -190,7 +190,7 @@ El proceso habitual es el siguiente:
 
 4. **Publicación:** Los precios aprobados se publican en la web de la lonja y en medios especializados. Muchas lonjas también envían boletines por correo electrónico a los suscriptores.
 
-Es importante entender que los precios de lonja son **precios orientativos**, no obligatorios. Las operaciones reales entre comprador y vendedor pueden cerrase por encima o por debajo del precio de lonja, dependiendo de múltiples variables que analizamos en detalle en nuestro artículo sobre [cómo se fija el precio del cereal](/precio-cereales/blog/como-se-fija-precio-cereal/), como la calidad del grano, el volumen de la operación, las condiciones de pago o los costes de transporte.
+Es importante entender que los precios de lonja son **precios orientativos**, no obligatorios. Las operaciones reales entre comprador y vendedor pueden cerrase por encima o por debajo del precio de lonja, dependiendo de múltiples variables que analizamos en detalle en nuestro artículo sobre [cómo se fija el precio del cereal](/blog/como-se-fija-precio-cereal/), como la calidad del grano, el volumen de la operación, las condiciones de pago o los costes de transporte.
 
 La referencia habitual es **"puesto en almacén"**, es decir, el precio incluye el coste de transporte hasta el almacén del comprador. Cuando se indica **"en origen"** o **"sobre camión en campo"**, se refiere al precio sin coste de transporte, que normalmente es algo inferior.
 
@@ -202,7 +202,7 @@ Conocer los precios de lonja es fundamental, pero saber interpretarlos y usarlos
 
 ### Compara varias lonjas cada semana
 
-No te quedes con el precio de una sola lonja. Compara siempre al menos tres o cuatro plazas diferentes. En nuestra sección de [precios actualizados](/precio-cereales/precios/) puedes ver todas las cotizaciones de un vistazo, y con nuestro [comparador de precios entre lonjas](/precio-cereales/comparador/) puedes analizar las diferencias entre plazas de forma rápida.
+No te quedes con el precio de una sola lonja. Compara siempre al menos tres o cuatro plazas diferentes. En nuestra sección de [precios actualizados](/precios/) puedes ver todas las cotizaciones de un vistazo, y con nuestro [comparador de precios entre lonjas](/comparador/) puedes analizar las diferencias entre plazas de forma rápida.
 
 Las diferencias entre lonjas no son casuales: reflejan las condiciones locales de oferta y demanda. Si tu lonja más cercana cotiza por debajo de otras, puede merecer la pena explorar la posibilidad de vender a un comprador de otra zona.
 
@@ -212,7 +212,7 @@ Un precio de 220 euros por tonelada puede ser excelente si la tendencia es bajis
 
 ### Ten en cuenta la estacionalidad
 
-Los precios de los cereales siguen patrones estacionales bastante predecibles. Generalmente, los precios son más bajos justo después de la cosecha (julio-agosto), cuando la oferta es máxima, y tienden a subir durante el invierno y la primavera, a medida que los stocks se van reduciendo. Planificar las ventas teniendo en cuenta esta estacionalidad puede suponer una diferencia de 10 a 30 euros por tonelada. En nuestra guía sobre [cuándo vender trigo y cebada](/precio-cereales/blog/cuando-vender-trigo-cebada/) analizamos en detalle las mejores estrategias de comercialización.
+Los precios de los cereales siguen patrones estacionales bastante predecibles. Generalmente, los precios son más bajos justo después de la cosecha (julio-agosto), cuando la oferta es máxima, y tienden a subir durante el invierno y la primavera, a medida que los stocks se van reduciendo. Planificar las ventas teniendo en cuenta esta estacionalidad puede suponer una diferencia de 10 a 30 euros por tonelada. En nuestra guía sobre [cuándo vender trigo y cebada](/blog/cuando-vender-trigo-cebada/) analizamos en detalle las mejores estrategias de comercialización.
 
 ### Considera los mercados de futuros
 
@@ -224,7 +224,7 @@ Cuando vayas a negociar con tu cooperativa o con un comprador directo, lleva los
 
 ### Diversifica las ventas en el tiempo
 
-No vendas toda la cosecha de golpe. Conocer el [calendario de siembra y cosecha de cereales](/precio-cereales/blog/calendario-siembra-cosecha-cereales/) te ayuda a anticipar los momentos de mayor presión vendedora. La estrategia más sensata para la mayoría de agricultores es vender en varios tramos a lo largo de la campaña: una parte a la cosecha, otra en otoño y otra en invierno-primavera. De esta forma, se consigue un precio medio que suele ser más favorable que el precio de cosecha.
+No vendas toda la cosecha de golpe. Conocer el [calendario de siembra y cosecha de cereales](/blog/calendario-siembra-cosecha-cereales/) te ayuda a anticipar los momentos de mayor presión vendedora. La estrategia más sensata para la mayoría de agricultores es vender en varios tramos a lo largo de la campaña: una parte a la cosecha, otra en otoño y otra en invierno-primavera. De esta forma, se consigue un precio medio que suele ser más favorable que el precio de cosecha.
 
 ---
 
@@ -246,6 +246,6 @@ Como puedes ver, cada día de la semana hay al menos una lonja en sesión, lo qu
 
 ## Conclusión
 
-Las lonjas de cereales en España constituyen un sistema de formación de precios descentralizado pero eficaz, que lleva décadas funcionando como referencia para millones de toneladas de transacciones anuales. Para entender mejor la situación global del sector, consulta nuestro análisis sobre el [mercado de cereales en España](/precio-cereales/blog/mercado-cereales-espana/). Conocerlas, seguirlas y saber interpretar sus precios es una habilidad imprescindible para cualquier profesional del sector cerealista.
+Las lonjas de cereales en España constituyen un sistema de formación de precios descentralizado pero eficaz, que lleva décadas funcionando como referencia para millones de toneladas de transacciones anuales. Para entender mejor la situación global del sector, consulta nuestro análisis sobre el [mercado de cereales en España](/blog/mercado-cereales-espana/). Conocerlas, seguirlas y saber interpretar sus precios es una habilidad imprescindible para cualquier profesional del sector cerealista.
 
-En nuestra web mantenemos actualizados los precios de todas estas lonjas para que puedas consultarlos desde un único lugar. Visita la sección de [precios actualizados](/precio-cereales/precios/) para ver las últimas cotizaciones, y no te pierdas nuestros artículos sobre [cómo interpretar las cotizaciones de cereales](/precio-cereales/blog/cotizacion-cereales-donde-consultar/) para sacar el máximo partido a esta información.
+En nuestra web mantenemos actualizados los precios de todas estas lonjas para que puedas consultarlos desde un único lugar. Visita la sección de [precios actualizados](/precios/) para ver las últimas cotizaciones, y no te pierdas nuestros artículos sobre [cómo interpretar las cotizaciones de cereales](/blog/cotizacion-cereales-donde-consultar/) para sacar el máximo partido a esta información.

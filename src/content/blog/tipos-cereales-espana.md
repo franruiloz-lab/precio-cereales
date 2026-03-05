@@ -11,7 +11,7 @@ readingTime: "15 min"
 
 España es uno de los grandes países cerealistas de Europa. Con una superficie dedicada al cultivo de cereales que supera los **5,4 millones de hectáreas** y una producción anual que ronda las **20 millones de toneladas**, el sector cerealista es un pilar fundamental de la agricultura nacional y de la economía rural de amplias zonas del interior peninsular.
 
-Pero cuando hablamos de "cereales" en el contexto del [mercado de cereales en España](/precio-cereales/blog/mercado-cereales-espana/), no nos referimos solo a trigo y cebada. Las lonjas agropecuarias cotizan regularmente hasta ocho especies diferentes, incluyendo dos oleaginosas --girasol y colza-- que, aunque técnicamente no son cereales desde el punto de vista botánico, se negocian en las mismas mesas de cotización y comparten canales comerciales con los cereales propiamente dichos.
+Pero cuando hablamos de "cereales" en el contexto del [mercado de cereales en España](/blog/mercado-cereales-espana/), no nos referimos solo a trigo y cebada. Las lonjas agropecuarias cotizan regularmente hasta ocho especies diferentes, incluyendo dos oleaginosas --girasol y colza-- que, aunque técnicamente no son cereales desde el punto de vista botánico, se negocian en las mismas mesas de cotización y comparten canales comerciales con los cereales propiamente dichos.
 
 En este artículo te presentamos una guía completa de las ocho especies principales que se cultivan y cotizan en España, con datos sobre sus zonas de producción, usos, volúmenes y precios.
 
@@ -19,7 +19,7 @@ En este artículo te presentamos una guía completa de las ocho especies princip
 
 ## 1. Trigo (Triticum)
 
-El trigo es, junto con la cebada, el cereal rey de la agricultura española. Se cultivan dos tipos principales: **trigo blando** (Triticum aestivum), destinado fundamentalmente a la panificación y a la fabricación de piensos, y **trigo duro** (Triticum durum), utilizado para la elaboración de pasta y sémolas. En nuestro artículo sobre [trigo blando vs trigo duro](/precio-cereales/blog/trigo-blando-vs-trigo-duro/) analizamos en detalle las diferencias entre ambos.
+El trigo es, junto con la cebada, el cereal rey de la agricultura española. Se cultivan dos tipos principales: **trigo blando** (Triticum aestivum), destinado fundamentalmente a la panificación y a la fabricación de piensos, y **trigo duro** (Triticum durum), utilizado para la elaboración de pasta y sémolas. En nuestro artículo sobre [trigo blando vs trigo duro](/blog/trigo-blando-vs-trigo-duro/) analizamos en detalle las diferencias entre ambos.
 
 ### Zonas de producción
 
@@ -38,13 +38,13 @@ La producción española de trigo blando oscila entre 4 y 7 millones de tonelada
 
 ### Precios
 
-El trigo blando suele cotizar entre 180 y 280 euros por tonelada en las lonjas españolas, dependiendo de la campaña. El trigo duro normalmente cotiza con una prima de 20 a 60 euros sobre el trigo blando, gracias a una demanda más específica y una producción más limitada. Consulta los [precios actualizados del trigo](/precio-cereales/precios/trigo/) en nuestra web.
+El trigo blando suele cotizar entre 180 y 280 euros por tonelada en las lonjas españolas, dependiendo de la campaña. El trigo duro normalmente cotiza con una prima de 20 a 60 euros sobre el trigo blando, gracias a una demanda más específica y una producción más limitada. Consulta los [precios actualizados del trigo](/precios/trigo/) en nuestra web. Para maximizar el rendimiento y la calidad, elegir la variedad adecuada a tu zona es clave: consulta nuestra guía de [variedades de trigo en España](/blog/variedades-trigo-espana/).
 
 ---
 
 ## 2. Cebada (Hordeum vulgare)
 
-La cebada es el **cereal más cultivado en España** en términos de superficie, superando incluso al trigo. Es un cultivo perfectamente adaptado al clima continental seco de la meseta, con una tolerancia a la sequía superior a la del trigo. Conocer el [calendario de siembra y cosecha](/precio-cereales/blog/calendario-siembra-cosecha-cereales/) de la cebada y el resto de cereales es clave para planificar cada campaña.
+La cebada es el **cereal más cultivado en España** en términos de superficie, superando incluso al trigo. Es un cultivo perfectamente adaptado al clima continental seco de la meseta, con una tolerancia a la sequía superior a la del trigo. Conocer el [calendario de siembra y cosecha](/blog/calendario-siembra-cosecha-cereales/) de la cebada y el resto de cereales es clave para planificar cada campaña.
 
 ### Zonas de producción
 
@@ -57,12 +57,12 @@ España produce entre 7 y 12 millones de toneladas de cebada al año, con una su
 ### Usos principales
 
 - **Cebada para pienso (cebada cervecera excluida):** Es el uso mayoritario en España. La cebada es la base de la alimentación del ganado ovino y caprino, y también se utiliza ampliamente en porcino y vacuno.
-- **Cebada maltera (cervecera):** Las variedades específicas de cebada de dos carreras se destinan a la fabricación de malta para la industria cervecera. Este segmento representa un porcentaje menor pero con mayor valor añadido.
+- **Cebada maltera (cervecera):** Las variedades específicas de cebada de dos carreras se destinan a la fabricación de malta para la industria cervecera. Este segmento representa un porcentaje menor pero con mayor valor añadido. Conoce los [requisitos de calidad y el mercado de la cebada cervecera](/blog/cebada-cervecera-precio-mercado/) en detalle.
 - **Alimentación humana:** Uso marginal pero creciente, impulsado por la tendencia hacia cereales integrales y productos saludables.
 
 ### Precios
 
-La cebada suele cotizar entre 160 y 260 euros por tonelada, generalmente con un descuento de 10 a 30 euros respecto al trigo blando. La cebada maltera, cuando cumple los estándares de calidad, puede cotizar a un nivel similar o incluso superior al del trigo blando. Consulta los [precios actualizados de la cebada](/precio-cereales/precios/cebada/) en nuestra web.
+La cebada suele cotizar entre 160 y 260 euros por tonelada, generalmente con un descuento de 10 a 30 euros respecto al trigo blando. La cebada maltera, cuando cumple los estándares de calidad, puede cotizar a un nivel similar o incluso superior al del trigo blando. Consulta los [precios actualizados de la cebada](/precios/cebada/) en nuestra web.
 
 ---
 
@@ -88,7 +88,7 @@ Sin embargo, España es **deficitaria en maíz**: el consumo nacional, impulsado
 
 ### Precios
 
-El maíz suele cotizar entre 180 y 280 euros por tonelada, en un rango similar al trigo blando aunque con oscilaciones propias ligadas al mercado internacional (el maíz es un commodity global muy influido por las cosechas de EE.UU. y Sudamérica). Consulta los [precios actualizados del maíz](/precio-cereales/precios/maiz/) en nuestra web.
+El maíz suele cotizar entre 180 y 280 euros por tonelada, en un rango similar al trigo blando aunque con oscilaciones propias ligadas al mercado internacional (el maíz es un commodity global muy influido por las cosechas de EE.UU. y Sudamérica). Consulta los [precios actualizados del maíz](/precios/maiz/) en nuestra web. Para un análisis completo de producción, costes y factores de precio, consulta nuestro artículo sobre [el maíz en España](/blog/maiz-espana-produccion-precio/).
 
 ---
 
@@ -112,7 +112,7 @@ La producción española de avena se sitúa entre 0,8 y 1,5 millones de tonelada
 
 ### Precios
 
-La avena cotiza entre 160 y 260 euros por tonelada en las lonjas. Tradicionalmente cotizaba por debajo de la cebada, pero en los últimos años la creciente demanda para alimentación humana ha estrechado esa diferencia e incluso la ha invertido en algunas campañas. Consulta los [precios actualizados de la avena](/precio-cereales/precios/avena/) en nuestra web.
+La avena cotiza entre 160 y 260 euros por tonelada en las lonjas. Tradicionalmente cotizaba por debajo de la cebada, pero en los últimos años la creciente demanda para alimentación humana ha estrechado esa diferencia e incluso la ha invertido en algunas campañas. Consulta los [precios actualizados de la avena](/precios/avena/) en nuestra web.
 
 ---
 
@@ -136,7 +136,7 @@ La producción española de centeno es modesta, situándose entre 200.000 y 400.
 
 ### Precios
 
-El centeno cotiza generalmente entre 160 y 250 euros por tonelada, normalmente por debajo del trigo blando y en un rango similar al de la cebada para pienso. Consulta los [precios actualizados del centeno](/precio-cereales/precios/centeno/) en nuestra web.
+El centeno cotiza generalmente entre 160 y 250 euros por tonelada, normalmente por debajo del trigo blando y en un rango similar al de la cebada para pienso. Consulta los [precios actualizados del centeno](/precios/centeno/) en nuestra web.
 
 ---
 
@@ -159,7 +159,7 @@ La producción española de triticale se sitúa entre 300.000 y 600.000 tonelada
 
 ### Precios
 
-El triticale cotiza entre 160 y 250 euros por tonelada, normalmente a un nivel similar o ligeramente inferior al centeno. Al ser un cereal destinado exclusivamente a pienso, su precio depende directamente de la demanda ganadera. Consulta los [precios actualizados del triticale](/precio-cereales/precios/triticale/) en nuestra web.
+El triticale cotiza entre 160 y 250 euros por tonelada, normalmente a un nivel similar o ligeramente inferior al centeno. Al ser un cereal destinado exclusivamente a pienso, su precio depende directamente de la demanda ganadera. Consulta los [precios actualizados del triticale](/precios/triticale/) en nuestra web.
 
 ---
 
@@ -185,13 +185,13 @@ La producción española de girasol oscila entre 0,6 y 1,2 millones de toneladas
 
 ### Precios
 
-El girasol suele cotizar entre 280 y 550 euros por tonelada, significativamente por encima de los cereales, lo que compensa en parte sus rendimientos por hectárea más bajos. El precio del girasol está muy ligado al precio internacional del aceite de girasol, que a su vez depende de la producción del Mar Negro (Ucrania y Rusia). Consulta los [precios actualizados del girasol](/precio-cereales/precios/girasol/) en nuestra web.
+El girasol suele cotizar entre 280 y 550 euros por tonelada, significativamente por encima de los cereales, lo que compensa en parte sus rendimientos por hectárea más bajos. El precio del girasol está muy ligado al precio internacional del aceite de girasol, que a su vez depende de la producción del Mar Negro (Ucrania y Rusia). Consulta los [precios actualizados del girasol](/precios/girasol/) en nuestra web.
 
 ---
 
 ## 8. Colza (Brassica napus)
 
-La colza es la segunda oleaginosa cotizada en las lonjas españolas. Es un cultivo de invierno --a diferencia del girasol, que es de primavera-verano-- y ocupa el terreno durante la misma época que el trigo y la cebada, con la particularidad de ser una excelente cabeza de rotación.
+La colza es la segunda oleaginosa cotizada en las lonjas españolas. Es un cultivo de invierno --a diferencia del girasol, que es de primavera-verano-- y ocupa el terreno durante la misma época que el trigo y la cebada, con la particularidad de ser una excelente cabeza de rotación. Para comparar el girasol y la colza como alternativas oleaginosas en tu explotación, consulta nuestro análisis de [girasol vs. colza](/blog/girasol-vs-colza-oleaginosas/).
 
 ### Zonas de producción
 
@@ -209,7 +209,7 @@ La producción española de colza ha crecido notablemente en los últimos años,
 
 ### Precios
 
-La colza cotiza entre 350 y 550 euros por tonelada, generalmente por encima de los cereales pero en un rango similar o ligeramente inferior al girasol. Su precio está fuertemente ligado al mercado europeo de Matif (París), donde la colza tiene un contrato de futuros muy activo. Consulta los [precios actualizados de la colza](/precio-cereales/precios/colza/) en nuestra web.
+La colza cotiza entre 350 y 550 euros por tonelada, generalmente por encima de los cereales pero en un rango similar o ligeramente inferior al girasol. Su precio está fuertemente ligado al mercado europeo de Matif (París), donde la colza tiene un contrato de futuros muy activo. Consulta los [precios actualizados de la colza](/precios/colza/) en nuestra web.
 
 ---
 
@@ -233,7 +233,7 @@ Conviene aclarar una confusión frecuente. Cuando en el sector agrario español 
 
 Esta inclusión tiene una explicación práctica: en muchas explotaciones cerealistas, especialmente en Castilla y León y Castilla-La Mancha, el girasol y la colza forman parte de la rotación de cultivos junto con el trigo y la cebada. Los agricultores que producen cereales suelen producir también oleaginosas, los compradores son a menudo los mismos (cooperativas, almacenistas) y los canales comerciales se solapan ampliamente.
 
-Por eso las [lonjas de cereales](/precio-cereales/lonjas/) cotizan cereales y oleaginosas en la misma sesión, y por eso en nuestra web incluimos los precios de girasol y colza junto a los de trigo, cebada y maíz.
+Por eso las [lonjas de cereales](/lonjas/) cotizan cereales y oleaginosas en la misma sesión, y por eso en nuestra web incluimos los precios de girasol y colza junto a los de trigo, cebada y maíz.
 
 ---
 
@@ -253,6 +253,6 @@ La posición de España como potencia cerealista se ve limitada por un factor es
 
 ## Conclusión
 
-El sector cerealista español es diverso y complejo. Desde el trigo panificable hasta la colza para biodiésel, pasando por la cebada para cerveza o el maíz para piensos, cada cultivo tiene su propia dinámica de mercado, sus zonas de producción y sus factores de precio.
+El sector cerealista español es diverso y complejo. Desde el trigo panificable hasta la colza para biodiésel, pasando por la cebada para cerveza o el maíz para piensos, cada cultivo tiene su propia dinámica de mercado, sus zonas de producción y sus factores de precio. Si tienes que elegir entre trigo y cebada para tu explotación, consulta nuestra comparativa de [rentabilidad trigo vs. cebada](/blog/trigo-vs-cebada-rentabilidad/) con los números reales.
 
-Conocer las características de cada cereal y oleaginosa te permite entender mejor las cotizaciones de las lonjas y tomar decisiones más informadas sobre qué cultivar y cuándo vender. En nuestra web puedes consultar los [precios actualizados](/precio-cereales/precios/) de todos estos productos, utilizar el [comparador de precios](/precio-cereales/comparador/) para analizar diferencias entre plazas, y seguir la evolución del mercado semana a semana.
+Conocer las características de cada cereal y oleaginosa te permite entender mejor las cotizaciones de las lonjas y tomar decisiones más informadas sobre qué cultivar y cuándo vender. En nuestra web puedes consultar los [precios actualizados](/precios/) de todos estos productos, utilizar el [comparador de precios](/comparador/) para analizar diferencias entre plazas, y seguir la evolución del mercado semana a semana.

@@ -17,7 +17,7 @@ En esta guía repasamos todas las fuentes disponibles para consultar los precios
 
 ## 1. Lonjas regionales: la referencia más directa
 
-Las **lonjas agropecuarias** son la fuente de precios más importante y más utilizada por los profesionales del sector cerealista español. Son organismos --si quieres entender en profundidad [qué es una lonja de cereales](/precio-cereales/blog/que-es-lonja-cereales/) te lo explicamos aparte-- donde representantes de compradores y vendedores se reúnen semanalmente para fijar precios orientativos basados en las transacciones reales de la semana.
+Las **lonjas agropecuarias** son la fuente de precios más importante y más utilizada por los profesionales del sector cerealista español. Son organismos --si quieres entender en profundidad [qué es una lonja de cereales](/blog/que-es-lonja-cereales/) te lo explicamos aparte-- donde representantes de compradores y vendedores se reúnen semanalmente para fijar precios orientativos basados en las transacciones reales de la semana.
 
 ### Qué información proporcionan
 
@@ -30,15 +30,15 @@ Cada lonja publica una tabla con los precios de los cereales que cotiza, indican
 
 ### Principales lonjas de cereales en España
 
-España cuenta con más de una docena de lonjas activas. Las más relevantes para el sector cerealista son las de León, Valladolid y Palencia, Salamanca, Segovia, Burgos, Zamora, Toledo, Albacete, Sevilla, Córdoba, Binéfar y Barcelona. Cada una tiene su día de sesión y su ámbito geográfico. Puedes consultar el [listado completo de lonjas con horarios y datos de contacto](/precio-cereales/blog/lonjas-cereales-espana/) en nuestro artículo dedicado.
+España cuenta con más de una docena de lonjas activas. Las más relevantes para el sector cerealista son las de León, Valladolid y Palencia, Salamanca, Segovia, Burgos, Zamora, Toledo, Albacete, Sevilla, Córdoba, Binéfar y Barcelona. Cada una tiene su día de sesión y su ámbito geográfico. Puedes consultar el [listado completo de lonjas con horarios y datos de contacto](/blog/lonjas-cereales-espana/) en nuestro artículo dedicado.
 
 ### Cómo acceder a los precios
 
-La mayoría de lonjas publican sus cotizaciones en su página web oficial. Algunas también envían boletines por correo electrónico. Además, en nuestra sección de [precios actualizados](/precio-cereales/precios/) recopilamos semanalmente las cotizaciones de todas las lonjas en un formato unificado y fácil de comparar.
+La mayoría de lonjas publican sus cotizaciones en su página web oficial. Algunas también envían boletines por correo electrónico. Además, en nuestra sección de [precios actualizados](/precios/) recopilamos semanalmente las cotizaciones de todas las lonjas en un formato unificado y fácil de comparar.
 
 ### Ventajas y limitaciones
 
-La gran ventaja de las lonjas es que reflejan el mercado real, local y reciente. Para entender los mecanismos que determinan esas cotizaciones, consulta nuestro análisis sobre [cómo se fija el precio del cereal](/precio-cereales/blog/como-se-fija-precio-cereal/). Su principal limitación es que los precios son orientativos y pueden no coincidir exactamente con las operaciones que se cierran en el mercado libre. Además, cada lonja tiene su propio criterio de calidad estándar, lo que puede dificultar la comparación directa entre plazas.
+La gran ventaja de las lonjas es que reflejan el mercado real, local y reciente. Para entender los mecanismos que determinan esas cotizaciones, consulta nuestro análisis sobre [cómo se fija el precio del cereal](/blog/como-se-fija-precio-cereal/). Su principal limitación es que los precios son orientativos y pueden no coincidir exactamente con las operaciones que se cierran en el mercado libre. Además, cada lonja tiene su propio criterio de calidad estándar, lo que puede dificultar la comparación directa entre plazas.
 
 ---
 
@@ -145,7 +145,7 @@ Interempresas es un portal industrial que cuenta con una sección dedicada al se
 
 ### Nuestra web: Precio Cereales
 
-En [Precio Cereales](/precio-cereales/precios/) recopilamos cada semana las cotizaciones de todas las lonjas de España en un formato unificado, permitiéndote comparar precios entre plazas de forma rápida y sencilla. Además, nuestro [comparador de precios de cereales](/precio-cereales/comparador/) te permite cruzar cotizaciones de distintas lonjas y productos en una sola vista. También ofrecemos gráficos de evolución histórica y alertas de cambios significativos.
+En [Precio Cereales](/precios/) recopilamos cada semana las cotizaciones de todas las lonjas de España en un formato unificado, permitiéndote comparar precios entre plazas de forma rápida y sencilla. Además, nuestro [comparador de precios de cereales](/comparador/) te permite cruzar cotizaciones de distintas lonjas y productos en una sola vista. También ofrecemos gráficos de evolución histórica y alertas de cambios significativos.
 
 ---
 
@@ -223,8 +223,8 @@ Si estás comparando el precio de vender hoy con el precio esperado dentro de tr
 
 ## Conclusión
 
-Consultar las cotizaciones de cereales antes de tomar decisiones de venta no es un lujo, es una necesidad. Si quieres saber cuál es el mejor momento para comercializar tu grano, lee nuestra guía sobre [cuándo vender trigo y cebada](/precio-cereales/blog/cuando-vender-trigo-cebada/). Con las herramientas que hemos descrito en este artículo, cualquier agricultor puede acceder a información de calidad de forma gratuita y sencilla.
+Consultar las cotizaciones de cereales antes de tomar decisiones de venta no es un lujo, es una necesidad. Si quieres saber cuál es el mejor momento para comercializar tu grano, lee nuestra guía sobre [cuándo vender trigo y cebada](/blog/cuando-vender-trigo-cebada/). Con las herramientas que hemos descrito en este artículo, cualquier agricultor puede acceder a información de calidad de forma gratuita y sencilla.
 
-La clave está en no limitarse a una sola fuente: **cruza los datos de las lonjas** con las tendencias de los mercados de futuros y los informes del MAPA para tener una visión completa. Consulta nuestro [directorio de lonjas](/precio-cereales/blog/lonjas-cereales-espana/) para saber cuál es tu lonja de referencia y visita nuestra página de [lonjas](/precio-cereales/lonjas/) para acceder directamente a las cotizaciones más recientes.
+La clave está en no limitarse a una sola fuente: **cruza los datos de las lonjas** con las tendencias de los mercados de futuros y los informes del MAPA para tener una visión completa. Consulta nuestro [directorio de lonjas](/blog/lonjas-cereales-espana/) para saber cuál es tu lonja de referencia y visita nuestra página de [lonjas](/lonjas/) para acceder directamente a las cotizaciones más recientes.
 
-Y recuerda: la información es poder, pero solo si la utilizas. Conocer el [panorama general del mercado de cereales en España](/precio-cereales/blog/mercado-cereales-espana/) te dará el contexto necesario para interpretar cada cotización. De nada sirve conocer el precio de la cebada en seis lonjas diferentes si luego vendes al primero que llama sin negociar.
+Y recuerda: la información es poder, pero solo si la utilizas. Conocer el [panorama general del mercado de cereales en España](/blog/mercado-cereales-espana/) te dará el contexto necesario para interpretar cada cotización. De nada sirve conocer el precio de la cebada en seis lonjas diferentes si luego vendes al primero que llama sin negociar.

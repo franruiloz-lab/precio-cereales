@@ -13,7 +13,7 @@ Cada verano, cuando las cosechadoras terminan su trabajo y el grano llena las to
 
 No existe una respuesta universal. Cada campaña es diferente, cada explotación tiene sus necesidades de liquidez y cada mercado presenta sus particularidades. Sin embargo, lo que si existe son **estrategias probadas** que reducen el riesgo y maximizan las probabilidades de obtener un precio medio por encima de la media de campaña.
 
-En este articulo vamos a analizar en profundidad cuándo conviene vender el trigo y la cebada, qué factores influyen en la evolución de los precios a lo largo de la campaña, y cómo aplicar una estrategia de venta por tramos que te permita dormir tranquilo sin dejar dinero sobre la mesa. Si quieres entender primero la dinámica general del sector, te recomendamos nuestro análisis sobre el [mercado de cereales en España](/precio-cereales/blog/mercado-cereales-espana/).
+En este articulo vamos a analizar en profundidad cuándo conviene vender el trigo y la cebada, qué factores influyen en la evolución de los precios a lo largo de la campaña, y cómo aplicar una estrategia de venta por tramos que te permita dormir tranquilo sin dejar dinero sobre la mesa. Si quieres entender primero la dinámica general del sector, te recomendamos nuestro análisis sobre el [mercado de cereales en España](/blog/mercado-cereales-espana/).
 
 ## Por qué vender todo en cosecha suele ser un mal negocio
 
@@ -25,7 +25,7 @@ Este patrón se repite campaña tras campaña con notable regularidad:
 
 - **Junio-julio**: los precios suelen estar en el rango bajo de la campaña. La presión vendedora es máxima y los compradores pueden permitirse ser selectivos.
 - **Agosto**: se mantienen precios bajos, aunque a veces ya empiezan a repuntar cuando el grueso de las ventas de cosecha se ha completado.
-- **Septiembre-octubre**: comienza la recuperación. La oferta inmediata se reduce y la demanda de la industria de piensos —que no para— empieza a tirar de los precios. Puedes consultar la evolución actualizada del [precio de la cebada](/precio-cereales/precios/cebada/) para verificar este patrón estacional.
+- **Septiembre-octubre**: comienza la recuperación. La oferta inmediata se reduce y la demanda de la industria de piensos —que no para— empieza a tirar de los precios. Puedes consultar la evolución actualizada del [precio de la cebada](/precios/cebada/) para verificar este patrón estacional.
 
 Esto no significa que vender en cosecha sea siempre un error. Hay campañas en las que los precios de junio son los más altos del año, especialmente cuando hay tensiones geopolíticas o problemas climáticos graves a nivel mundial. Pero **estadísticamente, vender el 100% de la producción en el momento de la siega es una estrategia perdedora** a largo plazo.
 
@@ -90,7 +90,7 @@ Aunque no podemos predecir el futuro, podemos analizar una serie de indicadores 
 
 El mercado de futuros de París (Matif) es la referencia europea para el precio del trigo. Observar la **curva de futuros** te da información valiosa: si los contratos a varios meses vista cotizan por encima del precio actual (situación de contango), el mercado espera precios más altos, lo que puede justificar esperar. Si cotizan por debajo (backwardation), el mercado anticipa bajadas.
 
-No necesitas operar en futuros para beneficiarte de esta información. Basta con seguir las cotizaciones del Matif y las [cotizaciones de cereales en las principales fuentes de consulta](/precio-cereales/blog/cotizacion-cereales-donde-consultar/) para tener una referencia de hacia dónde apunta el mercado.
+No necesitas operar en futuros para beneficiarte de esta información. Basta con seguir las cotizaciones del Matif y las [cotizaciones de cereales en las principales fuentes de consulta](/blog/cotizacion-cereales-donde-consultar/) para tener una referencia de hacia dónde apunta el mercado.
 
 ### Informes WASDE del USDA
 
@@ -102,7 +102,7 @@ Los informes del Departamento de Agricultura de Estados Unidos (USDA) sobre la o
 
 ### Clima en el hemisferio sur
 
-Entre octubre y enero, la cosecha del hemisferio sur (Argentina, Australia, Brasil para maíz) es determinante. Problemas climáticos en estas zonas (La Niña, sequías en la Pampa argentina) pueden disparar los precios internacionales y beneficiar a quien aún tiene grano almacenado. Conocer el [calendario de siembra y cosecha de cereales](/precio-cereales/blog/calendario-siembra-cosecha-cereales/) te ayuda a anticipar estos momentos clave.
+Entre octubre y enero, la cosecha del hemisferio sur (Argentina, Australia, Brasil para maíz) es determinante. Problemas climáticos en estas zonas (La Niña, sequías en la Pampa argentina) pueden disparar los precios internacionales y beneficiar a quien aún tiene grano almacenado. Conocer el [calendario de siembra y cosecha de cereales](/blog/calendario-siembra-cosecha-cereales/) te ayuda a anticipar estos momentos clave.
 
 ### Datos de importación y exportación de la UE
 
@@ -114,7 +114,7 @@ Aunque a menudo se olvida, el tipo de cambio afecta a la competitividad del cere
 
 ## El papel de las cooperativas y los pools de comercialización
 
-Las cooperativas agrarias juegan un papel fundamental en la comercialización de cereales en España, y muchas de ellas ofrecen mecanismos que facilitan la estrategia de venta escalonada.
+Las cooperativas agrarias juegan un papel fundamental en la comercialización de cereales en España, y muchas de ellas ofrecen mecanismos que facilitan la estrategia de venta escalonada. Si aún no tienes claro si vender a través de una cooperativa o directamente a un almacenista, consulta nuestra [comparativa cooperativas vs. almacenistas](/blog/cooperativas-vs-almacenistas-cereal/).
 
 ### Pools de comercialización
 
@@ -138,7 +138,7 @@ Esta modalidad es ideal para aplicar la estrategia de tramos: depositas todo el 
 
 ## Costes de almacenamiento vs. ganancia potencial: cuándo no merece la pena esperar
 
-Un aspecto que muchos agricultores subestiman es el **coste real de almacenar grano**. Esperar a que el precio suba tiene un precio, y ese precio puede comerse toda la ganancia potencial.
+Un aspecto que muchos agricultores subestiman es el **coste real de almacenar grano**. Esperar a que el precio suba tiene un precio, y ese precio puede comerse toda la ganancia potencial. En nuestro artículo sobre [almacenamiento de cereal: ¿vender o guardar?](/blog/almacenamiento-cereal-vender-o-guardar/) encontrarás todos los costes desglosados con casos prácticos.
 
 ### Costes directos de almacenamiento
 
@@ -189,14 +189,14 @@ La peor estrategia es no tener ninguna. Llegar a la cosecha sin haber decidido q
 
 Cada explotación tiene su estructura de costes, su capacidad de almacenamiento y sus necesidades de liquidez. Que tu vecino haya vendido a 20 EUR/t más que tú no significa necesariamente que haya tomado una mejor decisión: quizá asumió un riesgo que tú no podías permitirte, o quizá simplemente tuvo suerte.
 
-**Compárate con la media de campaña, no con el precio máximo puntual.** Si tu precio medio de venta está por encima de la media de la campaña, lo has hecho bien, independientemente de lo que hayan conseguido otros. Nuestro [comparador de precios](/precio-cereales/comparador/) te permite contrastar fácilmente las cotizaciones entre distintas lonjas y periodos.
+**Compárate con la media de campaña, no con el precio máximo puntual.** Si tu precio medio de venta está por encima de la media de la campaña, lo has hecho bien, independientemente de lo que hayan conseguido otros. Nuestro [comparador de precios](/comparador/) te permite contrastar fácilmente las cotizaciones entre distintas lonjas y periodos.
 
 ## Conclusión: la disciplina gana al azar
 
 No hay fórmulas mágicas para acertar siempre con el momento de venta del trigo y la cebada. Pero hay estrategias que, aplicadas con disciplina a lo largo de varias campañas, **mejoran consistentemente el precio medio obtenido**.
 
-La venta por tramos es la más accesible y eficaz para la mayoría de explotaciones cerealistas. Complementada con un seguimiento básico de los indicadores del mercado (Matif, informes WASDE, clima global), la consulta regular de [todos los precios de cereales actualizados](/precio-cereales/precios/) y un cálculo honesto de los costes de almacenamiento, te coloca en una posición mucho más favorable que la venta impulsiva o la espera indefinida.
+La venta por tramos es la más accesible y eficaz para la mayoría de explotaciones cerealistas. Complementada con un seguimiento básico de los indicadores del mercado (Matif, informes WASDE, clima global), la consulta regular de [todos los precios de cereales actualizados](/precios/) y un cálculo honesto de los costes de almacenamiento, te coloca en una posición mucho más favorable que la venta impulsiva o la espera indefinida.
 
 Recuerda: el objetivo no es vender en el máximo, sino **obtener un precio medio satisfactorio que remunere adecuadamente tu trabajo**. Y eso, con planificación y disciplina, está al alcance de cualquier agricultor.
 
-Si quieres seguir la evolución de los precios del [trigo](/precio-cereales/precios/trigo/) y la cebada en tiempo real para afinar tus decisiones de venta, consulta nuestras tablas de precios actualizadas. Y para entender mejor los mecanismos que determinan las cotizaciones, te recomendamos leer nuestro artículo sobre [cómo se fija el precio del cereal en España](/precio-cereales/blog/como-se-fija-precio-cereal/).
+Si quieres seguir la evolución de los precios del [trigo](/precios/trigo/) y la cebada en tiempo real para afinar tus decisiones de venta, consulta nuestras tablas de precios actualizadas. Y para entender mejor los mecanismos que determinan las cotizaciones, te recomendamos leer nuestro artículo sobre [cómo se fija el precio del cereal en España](/blog/como-se-fija-precio-cereal/).
