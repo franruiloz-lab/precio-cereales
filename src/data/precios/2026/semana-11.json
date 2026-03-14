@@ -34,24 +34,24 @@
     },
     "toledo": {
       "maiz": {
-        "precio": 223.0,
+        "precio": 228.0,
         "anterior": 223.0,
-        "variacion": 0.0
+        "variacion": 5.0
       },
       "cebada": {
-        "precio": 187.0,
+        "precio": 192.0,
         "anterior": 187.0,
-        "variacion": 0.0
+        "variacion": 5.0
       },
       "trigo": {
-        "precio": 197.0,
+        "precio": 202.0,
         "anterior": 197.0,
-        "variacion": 0.0
+        "variacion": 5.0
       },
       "triticale": {
-        "precio": 189.0,
+        "precio": 194.0,
         "anterior": 189.0,
-        "variacion": 0.0
+        "variacion": 5.0
       }
     }
   }
