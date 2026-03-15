@@ -102,21 +102,49 @@ def cargar_json_existente(anio, semana):
     }
 
 
-def integrar_precios(datos_semana, lonja_id, precios_cereal):
+def cargar_precios_semana_anterior(anio, semana):
+    """Devuelve los precios de la semana anterior como dict {lonja_id: {cereal_id: precio}}."""
+    sem_ant = semana - 1
+    anio_ant = anio
+    if sem_ant == 0:
+        sem_ant = 52
+        anio_ant = anio - 1
+    filepath = PRECIOS_DIR / str(anio_ant) / f"semana-{sem_ant:02d}.json"
+    if not filepath.exists():
+        return {}
+    with open(filepath, "r", encoding="utf-8") as f:
+        datos = json.load(f)
+    result = {}
+    for lonja_id, cereales in datos.get("precios", {}).items():
+        result[lonja_id] = {c: v["precio"] for c, v in cereales.items()}
+    return result
+
+
+def integrar_precios(datos_semana, lonja_id, precios_cereal, precios_anteriores=None):
     """
     Integra precios de una lonja en la estructura de datos de la semana.
 
     precios_cereal: dict de {cereal_id: precio_en_eur_por_tonelada}
+    precios_anteriores: dict de {lonja_id: {cereal_id: precio}} de la semana anterior
     """
     if lonja_id not in datos_semana["precios"]:
         datos_semana["precios"][lonja_id] = {}
 
     existentes = datos_semana["precios"][lonja_id]
+    anteriores_lonja = (precios_anteriores or {}).get(lonja_id, {})
 
     for cereal_id, precio in precios_cereal.items():
         if precio is None:
             continue
-        anterior = existentes.get(cereal_id, {}).get("precio", precio)
+        # Si ya existe en la semana actual (segunda ejecución), mantener el anterior guardado
+        if cereal_id in existentes:
+            anterior = existentes[cereal_id]["anterior"]
+        # Si tenemos datos de la semana anterior, usarlos
+        elif cereal_id in anteriores_lonja:
+            anterior = anteriores_lonja[cereal_id]
+        # Fallback: no hay histórico disponible
+        else:
+            anterior = precio
         variacion = round(precio - anterior, 2)
         datos_semana["precios"][lonja_id][cereal_id] = {
             "precio": round(precio, 2),
@@ -169,6 +197,7 @@ def main():
     print(f"=== Actualizando precios - Semana {semana}/{anio} ===\n")
 
     datos_semana = cargar_json_existente(anio, semana)
+    precios_anteriores = cargar_precios_semana_anterior(anio, semana)
     errores = []
 
     # 1. Junta de Castilla y León (10 lonjas)
@@ -187,7 +216,7 @@ def main():
                         if cereal_id and precio is not None:
                             precios_mapeados[cereal_id] = precio
                     if precios_mapeados:
-                        integrar_precios(datos_semana, lonja_id, precios_mapeados)
+                        integrar_precios(datos_semana, lonja_id, precios_mapeados, precios_anteriores)
                         print(f"    OK {nombre_lonja} -> {lonja_id}: {len(precios_mapeados)} cereales")
             else:
                 print(f"    AVISO: No hay datos disponibles para semana {semana}")
@@ -201,7 +230,7 @@ def main():
         try:
             precios_toledo = obtener_precios_toledo()
             if precios_toledo:
-                integrar_precios(datos_semana, "toledo", precios_toledo)
+                integrar_precios(datos_semana, "toledo", precios_toledo, precios_anteriores)
                 print(f"    OK Toledo: {len(precios_toledo)} cereales")
             else:
                 print("    AVISO: No se obtuvieron datos")
@@ -215,7 +244,7 @@ def main():
         try:
             precios_bcn = obtener_precios_barcelona()
             if precios_bcn:
-                integrar_precios(datos_semana, "barcelona", precios_bcn)
+                integrar_precios(datos_semana, "barcelona", precios_bcn, precios_anteriores)
                 print(f"    OK Barcelona: {len(precios_bcn)} cereales")
             else:
                 print("    AVISO: No se obtuvieron datos")
@@ -229,7 +258,7 @@ def main():
         try:
             precios_sevilla = obtener_precios_sevilla()
             if precios_sevilla:
-                integrar_precios(datos_semana, "sevilla", precios_sevilla)
+                integrar_precios(datos_semana, "sevilla", precios_sevilla, precios_anteriores)
                 print(f"    OK Sevilla: {len(precios_sevilla)} cereales")
             else:
                 print("    AVISO: No se obtuvieron datos (puede no haber sesión esta semana)")
