@@ -115,7 +115,7 @@ export function getVariacionMediaCereal(semana: SemanaData, cerealId: string): n
   for (const productos of Object.values(semana.precios)) {
     const item = productos[cerealId];
     if (item) {
-      total += item.variacion;
+      total += item.precio - item.anterior;
       count++;
     }
   }
@@ -135,7 +135,7 @@ export function getPreciosCerealPorLonja(semana: SemanaData, cerealId: string): 
         lonjaNombre: lonja?.nombre ?? lonjaId,
         precio: item.precio,
         anterior: item.anterior,
-        variacion: item.variacion,
+        variacion: item.precio - item.anterior,
       });
     }
   }
@@ -156,7 +156,7 @@ export function getPreciosLonja(semana: SemanaData, lonjaId: string): { cerealId
       cerealNombre: cereal?.nombre ?? cerealId,
       precio: item.precio,
       anterior: item.anterior,
-      variacion: item.variacion,
+      variacion: item.precio - item.anterior,
     });
   }
 
