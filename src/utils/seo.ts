@@ -59,16 +59,22 @@ export function generateWebSiteSchema(): string {
   return JSON.stringify(schema);
 }
 
-export function generateProductSchema(cereal: { nombre: string; slug: string }, precioMedio: { media: number; min: number; max: number; count: number }, fechaFin: string): string {
+export function generateProductSchema(
+  cereal: { nombre: string; nombreCompleto?: string; slug: string; descripcion?: string; keywords?: string[] },
+  precioMedio: { media: number; min: number; max: number; count: number },
+  fechaFin: string
+): string {
   const nextWeek = new Date(fechaFin);
   nextWeek.setDate(nextWeek.getDate() + 7);
 
-  const schema = {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: cereal.nombre,
+    name: cereal.nombreCompleto || cereal.nombre,
     category: 'Cereales',
-    description: `Precio del ${cereal.nombre.toLowerCase()} en las lonjas de España. Cotización actualizada.`,
+    description: cereal.descripcion
+      ? cereal.descripcion
+      : `Precio del ${cereal.nombre.toLowerCase()} en las lonjas de España. Cotización actualizada.`,
     url: siteUrl(`/precios/${cereal.slug}/`),
     offers: {
       '@type': 'AggregateOffer',
@@ -80,6 +86,11 @@ export function generateProductSchema(cereal: { nombre: string; slug: string }, 
       unitText: 'tonelada',
     },
   };
+
+  if (cereal.keywords?.length) {
+    schema.keywords = cereal.keywords.join(', ');
+  }
+
   return JSON.stringify(schema);
 }
 
@@ -99,12 +110,33 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]):
   return JSON.stringify(schema);
 }
 
-export function generateLocalBusinessSchema(lonja: { nombre: string; slug: string; ciudad: string; direccion: string; telefono: string; web: string }): string {
+const DAY_MAP: Record<string, string> = {
+  'Lunes': 'Monday',
+  'Martes': 'Tuesday',
+  'Miércoles': 'Wednesday',
+  'Jueves': 'Thursday',
+  'Viernes': 'Friday',
+  'Sábado': 'Saturday',
+  'Domingo': 'Sunday',
+};
+
+export function generateLocalBusinessSchema(lonja: {
+  nombre: string;
+  slug: string;
+  ciudad: string;
+  direccion: string;
+  telefono: string;
+  web: string;
+  diaSesion?: string;
+  descripcion?: string;
+}): string {
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: lonja.nombre,
-    description: `${lonja.nombre} - Cotizaciones y precios de cereales en ${lonja.ciudad}.`,
+    description: lonja.descripcion
+      ? lonja.descripcion
+      : `${lonja.nombre} - Cotizaciones y precios de cereales en ${lonja.ciudad}.`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: lonja.ciudad,
@@ -117,5 +149,82 @@ export function generateLocalBusinessSchema(lonja: { nombre: string; slug: strin
   if (lonja.telefono) schema.telephone = lonja.telefono;
   if (lonja.web) schema.sameAs = [lonja.web];
 
+  if (lonja.diaSesion && DAY_MAP[lonja.diaSesion]) {
+    schema.openingHoursSpecification = [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: `https://schema.org/${DAY_MAP[lonja.diaSesion]}`,
+        opens: '09:00',
+        closes: '14:00',
+      },
+    ];
+  }
+
+  return JSON.stringify(schema);
+}
+
+export function generateBlogPostingSchema(
+  post: {
+    id: string;
+    data: {
+      title: string;
+      description: string;
+      date: string;
+      lastUpdated?: string;
+      category: string;
+      tags: string[];
+    };
+  },
+  url: string
+): string {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.data.title,
+    description: post.data.description,
+    datePublished: post.data.date,
+    dateModified: post.data.lastUpdated || post.data.date,
+    url: siteUrl(url),
+    author: {
+      '@type': 'Organization',
+      name: 'Precios Cereales',
+      url: siteUrl('/'),
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Precios Cereales',
+      url: siteUrl('/'),
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': siteUrl(url),
+    },
+    articleSection: post.data.category,
+    keywords: post.data.tags.join(', '),
+    inLanguage: 'es-ES',
+  };
+  return JSON.stringify(schema);
+}
+
+export function generateCollectionPageSchema(
+  name: string,
+  description: string,
+  url: string,
+  items: { name: string; url: string; description?: string }[]
+): string {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name,
+    description,
+    url: siteUrl(url),
+    inLanguage: 'es-ES',
+    hasPart: items.map(item => ({
+      '@type': 'WebPage',
+      name: item.name,
+      url: siteUrl(item.url),
+      ...(item.description ? { description: item.description } : {}),
+    })),
+  };
   return JSON.stringify(schema);
 }

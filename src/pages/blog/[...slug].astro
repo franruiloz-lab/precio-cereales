@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { generateBlogPostingSchema } from '../../utils/seo';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -16,13 +17,18 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
+const postUrl = `/blog/${post.id.replace(/\.md$/, '')}/`;
+
 const seo = {
   title: post.data.title,
   description: post.data.description,
+  type: 'article' as const,
 };
+
+const schema = [generateBlogPostingSchema(post, postUrl)];
 ---
 
-<Layout seo={seo}>
+<Layout seo={seo} schema={schema}>
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <Breadcrumbs items={[
       { name: 'Blog', url: '/blog/' },

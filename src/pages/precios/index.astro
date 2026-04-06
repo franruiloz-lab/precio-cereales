@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import VariacionBadge from '../../components/VariacionBadge.astro';
 import { getCereales, getSemanaActual, getPrecioMedioCereal, getVariacionMediaCereal, formatPrecio, formatFecha, getMesActual, getAnioActual } from '../../utils/precios';
+import { generateCollectionPageSchema } from '../../utils/seo';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const semana = getSemanaActual();
@@ -20,9 +21,22 @@ const seo = {
   title: `Precios de Todos los Cereales Hoy ${mes.charAt(0).toUpperCase() + mes.slice(1)} ${anio}`,
   description: `Consulta el precio actualizado de todos los cereales en España: trigo, cebada, maíz, avena, girasol, colza, centeno y triticale. Datos de ${preciosResumen[0]?.stats?.count ?? 0}+ lonjas.`,
 };
+
+const schema = [
+  generateCollectionPageSchema(
+    `Precios de Cereales en España - ${mes.charAt(0).toUpperCase() + mes.slice(1)} ${anio}`,
+    seo.description,
+    '/precios/',
+    preciosResumen.map(item => ({
+      name: `Precio del ${item.cereal.nombre}`,
+      url: `/precios/${item.cereal.slug}/`,
+      description: item.stats ? `${item.cereal.nombre} a ${formatPrecio(item.stats.media)} €/t. Mín: ${formatPrecio(item.stats.min)}, Máx: ${formatPrecio(item.stats.max)} en ${item.stats.count} lonjas.` : undefined,
+    }))
+  ),
+];
 ---
 
-<Layout seo={seo}>
+<Layout seo={seo} schema={schema}>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <Breadcrumbs items={[{ name: 'Precios', url: '/precios/' }]} />
 

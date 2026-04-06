@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getLonjas, getSemanaActual } from '../../utils/precios';
+import { generateCollectionPageSchema } from '../../utils/seo';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const lonjas = getLonjas();
@@ -18,9 +19,22 @@ const porComunidad = lonjas.reduce((acc, lonja) => {
   acc[lonja.comunidad].push(lonja);
   return acc;
 }, {} as Record<string, typeof lonjas>);
+
+const schema = [
+  generateCollectionPageSchema(
+    'Lonjas de Cereales en España',
+    seo.description,
+    '/lonjas/',
+    lonjas.map(lonja => ({
+      name: lonja.nombre,
+      url: `/lonjas/${lonja.slug}/`,
+      description: `${lonja.nombre} en ${lonja.ciudad} (${lonja.comunidad}). Sesión: ${lonja.diaSesion}.`,
+    }))
+  ),
+];
 ---
 
-<Layout seo={seo}>
+<Layout seo={seo} schema={schema}>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <Breadcrumbs items={[{ name: 'Lonjas', url: '/lonjas/' }]} />
 

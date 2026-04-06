@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { generateCollectionPageSchema } from '../../utils/seo';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
@@ -15,9 +16,22 @@ const seo = {
   title: 'Blog - Guías y Análisis del Mercado de Cereales en España',
   description: 'Artículos, guías y análisis sobre el mercado de cereales en España. Aprende sobre lonjas, precios, estrategias de venta, la PAC y mucho más.',
 };
+
+const schema = [
+  generateCollectionPageSchema(
+    'Blog de Cereales - Guías y Análisis',
+    seo.description,
+    '/blog/',
+    posts.map(post => ({
+      name: post.data.title,
+      url: `/blog/${post.id.replace(/\.md$/, '')}/`,
+      description: post.data.description,
+    }))
+  ),
+];
 ---
 
-<Layout seo={seo}>
+<Layout seo={seo} schema={schema}>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <Breadcrumbs items={[{ name: 'Blog', url: '/blog/' }]} />
 
