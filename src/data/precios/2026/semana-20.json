@@ -34,14 +34,14 @@
         "variacion": 0.0
       },
       "centeno": {
-        "precio": 213.0,
+        "precio": 214.0,
         "anterior": 213.0,
-        "variacion": 0.0
+        "variacion": 1.0
       },
       "colza": {
-        "precio": 295.0,
+        "precio": 298.0,
         "anterior": 295.0,
-        "variacion": 0.0
+        "variacion": 3.0
       },
       "girasol": {
         "precio": 280.0,
@@ -49,9 +49,9 @@
         "variacion": 0.0
       },
       "maiz": {
-        "precio": 228.0,
+        "precio": 230.0,
         "anterior": 228.0,
-        "variacion": 0.0
+        "variacion": 2.0
       }
     }
   }
