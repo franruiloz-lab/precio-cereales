@@ -31,6 +31,23 @@
         "anterior": 230.0,
         "variacion": 0.0
       }
+    },
+    "sevilla": {
+      "cebada": {
+        "precio": 210.0,
+        "anterior": 210.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 270.0,
+        "anterior": 270.0,
+        "variacion": 0.0
+      },
+      "colza": {
+        "precio": 480.0,
+        "anterior": 480.0,
+        "variacion": 0.0
+      }
     }
   }
 }
