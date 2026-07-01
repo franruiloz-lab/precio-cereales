@@ -34,9 +34,9 @@
     },
     "barcelona": {
       "cebada": {
-        "precio": 210.0,
+        "precio": 214.0,
         "anterior": 210.0,
-        "variacion": 0.0
+        "variacion": 4.0
       },
       "centeno": {
         "precio": 203.0,
@@ -44,9 +44,9 @@
         "variacion": 0.0
       },
       "colza": {
-        "precio": 255.0,
+        "precio": 250.0,
         "anterior": 255.0,
-        "variacion": 0.0
+        "variacion": -5.0
       },
       "girasol": {
         "precio": 280.0,
@@ -54,9 +54,9 @@
         "variacion": 0.0
       },
       "maiz": {
-        "precio": 220.0,
+        "precio": 221.0,
         "anterior": 220.0,
-        "variacion": 0.0
+        "variacion": 1.0
       }
     },
     "sevilla": {
