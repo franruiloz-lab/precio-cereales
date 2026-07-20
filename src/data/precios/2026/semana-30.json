@@ -1,0 +1,36 @@
+{
+  "semana": 30,
+  "anio": 2026,
+  "campania": "2026-2027",
+  "fechaInicio": "2026-07-20",
+  "fechaFin": "2026-07-24",
+  "precios": {
+    "barcelona": {
+      "cebada": {
+        "precio": 220.0,
+        "anterior": 220.0,
+        "variacion": 0.0
+      },
+      "centeno": {
+        "precio": 206.0,
+        "anterior": 206.0,
+        "variacion": 0.0
+      },
+      "colza": {
+        "precio": 253.0,
+        "anterior": 253.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 280.0,
+        "anterior": 280.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 228.0,
+        "anterior": 228.0,
+        "variacion": 0.0
+      }
+    }
+  }
+}
