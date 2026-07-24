@@ -34,29 +34,29 @@
     },
     "toledo": {
       "maiz": {
-        "precio": 234.0,
+        "precio": 241.0,
         "anterior": 234.0,
-        "variacion": 0.0
+        "variacion": 7.0
       },
       "cebada": {
-        "precio": 203.0,
+        "precio": 209.0,
         "anterior": 203.0,
-        "variacion": 0.0
+        "variacion": 6.0
       },
       "trigo": {
-        "precio": 210.0,
+        "precio": 220.0,
         "anterior": 210.0,
-        "variacion": 0.0
+        "variacion": 10.0
       },
       "triticale": {
-        "precio": 205.0,
+        "precio": 213.0,
         "anterior": 205.0,
-        "variacion": 0.0
+        "variacion": 8.0
       },
       "centeno": {
-        "precio": 196.0,
+        "precio": 202.0,
         "anterior": 196.0,
-        "variacion": 0.0
+        "variacion": 6.0
       }
     },
     "sevilla": {
