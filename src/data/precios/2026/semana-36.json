@@ -51,18 +51,28 @@
     },
     "sevilla": {
       "cebada": {
-        "precio": 225.0,
+        "precio": 228.0,
         "anterior": 225.0,
-        "variacion": 0.0
+        "variacion": 3.0
       },
       "maiz": {
-        "precio": 280.0,
+        "precio": 284.0,
         "anterior": 280.0,
-        "variacion": 0.0
+        "variacion": 4.0
       },
       "girasol": {
         "precio": 555.0,
         "anterior": 555.0,
+        "variacion": 0.0
+      },
+      "trigo": {
+        "precio": 236.0,
+        "anterior": 236.0,
+        "variacion": 0.0
+      },
+      "triticale": {
+        "precio": 230.0,
+        "anterior": 230.0,
         "variacion": 0.0
       }
     }
