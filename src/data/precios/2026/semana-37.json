@@ -1,0 +1,80 @@
+{
+  "semana": 37,
+  "anio": 2026,
+  "campania": "2026-2027",
+  "fechaInicio": "2026-09-07",
+  "fechaFin": "2026-09-11",
+  "precios": {
+    "toledo": {
+      "cebada": {
+        "precio": 216.0,
+        "anterior": 216.0,
+        "variacion": 0.0
+      },
+      "trigo": {
+        "precio": 230.0,
+        "anterior": 230.0,
+        "variacion": 0.0
+      },
+      "triticale": {
+        "precio": 221.0,
+        "anterior": 221.0,
+        "variacion": 0.0
+      },
+      "centeno": {
+        "precio": 207.0,
+        "anterior": 207.0,
+        "variacion": 0.0
+      }
+    },
+    "barcelona": {
+      "cebada": {
+        "precio": 232.0,
+        "anterior": 232.0,
+        "variacion": 0.0
+      },
+      "colza": {
+        "precio": 285.0,
+        "anterior": 285.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 290.0,
+        "anterior": 290.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 236.0,
+        "anterior": 236.0,
+        "variacion": 0.0
+      }
+    },
+    "sevilla": {
+      "trigo": {
+        "precio": 236.0,
+        "anterior": 236.0,
+        "variacion": 0.0
+      },
+      "triticale": {
+        "precio": 230.0,
+        "anterior": 230.0,
+        "variacion": 0.0
+      },
+      "cebada": {
+        "precio": 228.0,
+        "anterior": 228.0,
+        "variacion": 0.0
+      },
+      "maiz": {
+        "precio": 284.0,
+        "anterior": 284.0,
+        "variacion": 0.0
+      },
+      "girasol": {
+        "precio": 555.0,
+        "anterior": 555.0,
+        "variacion": 0.0
+      }
+    }
+  }
+}
