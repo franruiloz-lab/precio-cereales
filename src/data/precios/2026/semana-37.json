@@ -7,24 +7,24 @@
   "precios": {
     "toledo": {
       "cebada": {
-        "precio": 216.0,
+        "precio": 219.0,
         "anterior": 216.0,
-        "variacion": 0.0
+        "variacion": 3.0
       },
       "trigo": {
-        "precio": 230.0,
+        "precio": 233.0,
         "anterior": 230.0,
-        "variacion": 0.0
+        "variacion": 3.0
       },
       "triticale": {
-        "precio": 221.0,
+        "precio": 224.0,
         "anterior": 221.0,
-        "variacion": 0.0
+        "variacion": 3.0
       },
       "centeno": {
-        "precio": 207.0,
+        "precio": 210.0,
         "anterior": 207.0,
-        "variacion": 0.0
+        "variacion": 3.0
       }
     },
     "barcelona": {
