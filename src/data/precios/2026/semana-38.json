@@ -61,9 +61,9 @@
         "variacion": 0.0
       },
       "cebada": {
-        "precio": 228.0,
+        "precio": 229.0,
         "anterior": 228.0,
-        "variacion": 0.0
+        "variacion": 1.0
       },
       "maiz": {
         "precio": 284.0,
@@ -71,9 +71,9 @@
         "variacion": 0.0
       },
       "girasol": {
-        "precio": 555.0,
+        "precio": 550.0,
         "anterior": 555.0,
-        "variacion": 0.0
+        "variacion": -5.0
       }
     }
   }
