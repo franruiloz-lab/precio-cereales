@@ -61,9 +61,9 @@
         "variacion": 0.0
       },
       "girasol": {
-        "precio": 542.0,
+        "precio": 537.0,
         "anterior": 542.0,
-        "variacion": 0.0
+        "variacion": -5.0
       }
     }
   }
