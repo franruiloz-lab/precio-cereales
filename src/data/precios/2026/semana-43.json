@@ -51,9 +51,9 @@
     },
     "sevilla": {
       "cebada": {
-        "precio": 232.0,
+        "precio": 233.0,
         "anterior": 232.0,
-        "variacion": 0.0
+        "variacion": 1.0
       },
       "maiz": {
         "precio": 287.0,
@@ -61,9 +61,9 @@
         "variacion": 0.0
       },
       "girasol": {
-        "precio": 537.0,
+        "precio": 540.0,
         "anterior": 537.0,
-        "variacion": 0.0
+        "variacion": 3.0
       }
     }
   }
