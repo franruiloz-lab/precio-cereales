@@ -51,9 +51,9 @@
     },
     "sevilla": {
       "cebada": {
-        "precio": 233.0,
+        "precio": 232.0,
         "anterior": 233.0,
-        "variacion": 0.0
+        "variacion": -1.0
       },
       "girasol": {
         "precio": 540.0,
