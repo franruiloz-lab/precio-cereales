@@ -12,14 +12,14 @@
         "variacion": 0.0
       },
       "trigo": {
-        "precio": 234.0,
+        "precio": 236.0,
         "anterior": 234.0,
-        "variacion": 0.0
+        "variacion": 2.0
       },
       "triticale": {
-        "precio": 226.0,
+        "precio": 228.0,
         "anterior": 226.0,
-        "variacion": 0.0
+        "variacion": 2.0
       },
       "centeno": {
         "precio": 212.0,
